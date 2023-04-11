@@ -1,0 +1,632 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "calendar",
+        "description": "calendar",
+        "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "002-Respondendo-ao-usuario",
+        "description": "002-Respondendo-ao-usuario",
+        "peekOfCode": "nome = input('Qual seu nome? ')\nprint('Prazer em conhece-lo ' + nome)",
+        "detail": "002-Respondendo-ao-usuario",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "003-Soma-entre-dois-numeros",
+        "description": "003-Soma-entre-dois-numeros",
+        "peekOfCode": "x = int(input('Enter a number: '))\ny = int(input('Enter another number: '))\nz = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "003-Soma-entre-dois-numeros",
+        "description": "003-Soma-entre-dois-numeros",
+        "peekOfCode": "y = int(input('Enter another number: '))\nz = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "003-Soma-entre-dois-numeros",
+        "description": "003-Soma-entre-dois-numeros",
+        "peekOfCode": "z = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "something",
+        "kind": 5,
+        "importPath": "004-String-type",
+        "description": "004-String-type",
+        "peekOfCode": "something = input('Enter something: ')\nprint('The variable is a {}'.format(type(something)))\nprint('The variable has \" \"? {}'.format(' ' in something))\nprint('The variable has uppercases? {}'.format(something.upper() == something))\nprint('The variable has lowercases? {}'.format(something.lower() == something))\nprint('The variable has letters? {}'.format(something.isnumeric()))\nprint('The variable has numbers? {}'.format(something.isdecimal()))\nprint('The variable only have spaces? {}'.format(something.isspace()))\nprint('The variable is alphanumeric? {}'.format(something.isalnum()))\nprint('The variable is capitalizada? {}'.format(something.istitle()))",
+        "detail": "004-String-type",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "005-Sucessor and antecessor",
+        "description": "005-Sucessor and antecessor",
+        "peekOfCode": "num = int (input('Type a number that you want to know his successor and predecessor: '))\nsuc = num+1\nante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "suc",
+        "kind": 5,
+        "importPath": "005-Sucessor and antecessor",
+        "description": "005-Sucessor and antecessor",
+        "peekOfCode": "suc = num+1\nante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "ante",
+        "kind": 5,
+        "importPath": "005-Sucessor and antecessor",
+        "description": "005-Sucessor and antecessor",
+        "peekOfCode": "ante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "006-Double.Triple and squareroot",
+        "description": "006-Double.Triple and squareroot",
+        "peekOfCode": "num = int (input('Enter a number: '))\ndouble = num*2\ntriple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "double",
+        "kind": 5,
+        "importPath": "006-Double.Triple and squareroot",
+        "description": "006-Double.Triple and squareroot",
+        "peekOfCode": "double = num*2\ntriple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "triple",
+        "kind": 5,
+        "importPath": "006-Double.Triple and squareroot",
+        "description": "006-Double.Triple and squareroot",
+        "peekOfCode": "triple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "squareroot",
+        "kind": 5,
+        "importPath": "006-Double.Triple and squareroot",
+        "description": "006-Double.Triple and squareroot",
+        "peekOfCode": "squareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "qnt",
+        "kind": 5,
+        "importPath": "007-arithmetic average",
+        "description": "007-arithmetic average",
+        "peekOfCode": "qnt = int(input('How many numbers do you want? '))\nx = 0\nfor i in range(qnt):\n    grade = int(input('Enter the grade: '))\n    x = (grade+x)\nArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "007-arithmetic average",
+        "description": "007-arithmetic average",
+        "peekOfCode": "x = 0\nfor i in range(qnt):\n    grade = int(input('Enter the grade: '))\n    x = (grade+x)\nArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "ArithmeticAverage",
+        "kind": 5,
+        "importPath": "007-arithmetic average",
+        "description": "007-arithmetic average",
+        "peekOfCode": "ArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "meters",
+        "kind": 5,
+        "importPath": "008-Distance-convertion",
+        "description": "008-Distance-convertion",
+        "peekOfCode": "meters = float(input('Enter a distance in meters: '))\nprint('{}m meters is equal to {}cm centimeters and {}mm milimetters'.format(meters,meters*100,meters*1000))",
+        "detail": "008-Distance-convertion",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "009-multiplication-tables-but-more-dificult",
+        "description": "009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "x = int(input('Write the whished multiplication: '))\nz = int(input('How many times do you want to multiply?: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "009-multiplication-tables-but-more-dificult",
+        "description": "009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "z = int(input('How many times do you want to multiply?: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "009-multiplication-tables-but-more-dificult",
+        "description": "009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "res = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "009-multiplication-tables-but-more-dificult",
+        "description": "009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "y = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "009-multiplication-tables-but-more-dificult",
+        "description": "009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "count = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "009-multiplication-tables",
+        "description": "009-multiplication-tables",
+        "peekOfCode": "x = int(input('Write the whished multiplication: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "009-multiplication-tables",
+        "description": "009-multiplication-tables",
+        "peekOfCode": "res = 0\ny = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "009-multiplication-tables",
+        "description": "009-multiplication-tables",
+        "peekOfCode": "y = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "009-multiplication-tables",
+        "description": "009-multiplication-tables",
+        "peekOfCode": "count = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "real",
+        "kind": 5,
+        "importPath": "010-Money-converter",
+        "description": "010-Money-converter",
+        "peekOfCode": "real = float(input('Insert how many R$ do you want to convert: '))\ndolar = real * 5.40\nprint('The value {} is equals to {} dolars'.format(real,dolar))",
+        "detail": "010-Money-converter",
+        "documentation": {}
+    },
+    {
+        "label": "dolar",
+        "kind": 5,
+        "importPath": "010-Money-converter",
+        "description": "010-Money-converter",
+        "peekOfCode": "dolar = real * 5.40\nprint('The value {} is equals to {} dolars'.format(real,dolar))",
+        "detail": "010-Money-converter",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "011-Painters",
+        "description": "011-Painters",
+        "peekOfCode": "height = float(input('How big is you wall?: '))\nwidth = float(input(\"What's the width of your wall?: \"))\nsqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "011-Painters",
+        "description": "011-Painters",
+        "peekOfCode": "width = float(input(\"What's the width of your wall?: \"))\nsqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "sqrmeters",
+        "kind": 5,
+        "importPath": "011-Painters",
+        "description": "011-Painters",
+        "peekOfCode": "sqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "tint",
+        "kind": 5,
+        "importPath": "011-Painters",
+        "description": "011-Painters",
+        "peekOfCode": "tint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "016-Float-Num-to-Int-Num",
+        "description": "016-Float-Num-to-Int-Num",
+        "peekOfCode": "num = float(input('Insert the number that you want to break: '))\nnumdec = num\nnumdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "numdec",
+        "kind": 5,
+        "importPath": "016-Float-Num-to-Int-Num",
+        "description": "016-Float-Num-to-Int-Num",
+        "peekOfCode": "numdec = num\nnumdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "numdec",
+        "kind": 5,
+        "importPath": "016-Float-Num-to-Int-Num",
+        "description": "016-Float-Num-to-Int-Num",
+        "peekOfCode": "numdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "CatOp",
+        "kind": 5,
+        "importPath": "017-Catetos-and-Hipotenusa",
+        "description": "017-Catetos-and-Hipotenusa",
+        "peekOfCode": "CatOp = float(input('Insert the opposite cateto: '))\nCatADJ = float(input('\\nInsert the adjacent cateto: '))\nHip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "CatADJ",
+        "kind": 5,
+        "importPath": "017-Catetos-and-Hipotenusa",
+        "description": "017-Catetos-and-Hipotenusa",
+        "peekOfCode": "CatADJ = float(input('\\nInsert the adjacent cateto: '))\nHip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "Hip",
+        "kind": 5,
+        "importPath": "017-Catetos-and-Hipotenusa",
+        "description": "017-Catetos-and-Hipotenusa",
+        "peekOfCode": "Hip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "Hip",
+        "kind": 5,
+        "importPath": "017-Catetos-and-Hipotenusa",
+        "description": "017-Catetos-and-Hipotenusa",
+        "peekOfCode": "Hip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "angle",
+        "kind": 5,
+        "importPath": "018-Seno-Cosseno-and-Tangente",
+        "description": "018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "angle = float(input('Insert the wished angle: '))\ncos = math.cos(math.radians(angle))\nSin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "kind": 5,
+        "importPath": "018-Seno-Cosseno-and-Tangente",
+        "description": "018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "cos = math.cos(math.radians(angle))\nSin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "Sin",
+        "kind": 5,
+        "importPath": "018-Seno-Cosseno-and-Tangente",
+        "description": "018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "Sin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "Tan",
+        "kind": 5,
+        "importPath": "018-Seno-Cosseno-and-Tangente",
+        "description": "018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "Tan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "019-Random-Studant",
+        "description": "019-Random-Studant",
+        "peekOfCode": "num = int(input('How many studants do you want to add to the list?: '))\nlist = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nchosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "019-Random-Studant",
+        "description": "019-Random-Studant",
+        "peekOfCode": "list = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nchosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "chosen",
+        "kind": 5,
+        "importPath": "019-Random-Studant",
+        "description": "019-Random-Studant",
+        "peekOfCode": "chosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "020-Random-Order",
+        "description": "020-Random-Order",
+        "peekOfCode": "num = int(input('How many studants do you want?: '))\nlist = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nrandom.shuffle(list)\nprint(f'The list shuffled list is {list}')",
+        "detail": "020-Random-Order",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "020-Random-Order",
+        "description": "020-Random-Order",
+        "peekOfCode": "list = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nrandom.shuffle(list)\nprint(f'The list shuffled list is {list}')",
+        "detail": "020-Random-Order",
+        "documentation": {}
+    },
+    {
+        "label": "user_name",
+        "kind": 5,
+        "importPath": "022-text-analiser",
+        "description": "022-text-analiser",
+        "peekOfCode": "user_name = input('Write your full name: ')\nprint(f\"\\nYour name is {user_name}\")\nprint(f\"Your name in uppercase is {user_name.upper()}\")\nprint(f\"Your name in lowercase is {user_name.lower()}\")\nprint(f\"Your name have {len(user_name.replace(' ',''))} letters\")\nfirst_name = user_name.split()\nprint(f\"Your first name have {len(first_name[1])} letters\")",
+        "detail": "022-text-analiser",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "022-text-analiser",
+        "description": "022-text-analiser",
+        "peekOfCode": "first_name = user_name.split()\nprint(f\"Your first name have {len(first_name[1])} letters\")",
+        "detail": "022-text-analiser",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "023-numbers-digits",
+        "description": "023-numbers-digits",
+        "peekOfCode": "numbers = input(\"Write a number between 1 and 1000: \")\nif int(numbers) >= 1000 and int(numbers) <= 9999:\n    print(f\"thousand's: {numbers[0]}\")\n    print(f\"hundred's: {numbers[1]}\")\n    print(f\"dozen's: {numbers[2]}\")\n    print(f\"units's: {numbers[3]}\")\nelif int(numbers) >= 100 and int(numbers) < 1000:\n    print(f\"hundred's: {numbers[0]}\")\n    print(f\"dozen's: {numbers[1]}\")\n    print(f\"units's: {numbers[2]}\")",
+        "detail": "023-numbers-digits",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "024-guess-the-world",
+        "description": "024-guess-the-world",
+        "peekOfCode": "city = input(\"Write the name of the city: \").lower()\nprint('santos' in city )",
+        "detail": "024-guess-the-world",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "025-String-in-a-string",
+        "description": "025-String-in-a-string",
+        "peekOfCode": "name = input(\"Write your name: \").lower().split()\nprint('Your name have silva ?')\nflag = 0\nfor part_of_the_name in name:\n    if part_of_the_name == 'silva':\n        print('silva' in name )\n        flag += 1\nif flag == 0:\n    print(False)",
+        "detail": "025-String-in-a-string",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "025-String-in-a-string",
+        "description": "025-String-in-a-string",
+        "peekOfCode": "flag = 0\nfor part_of_the_name in name:\n    if part_of_the_name == 'silva':\n        print('silva' in name )\n        flag += 1\nif flag == 0:\n    print(False)",
+        "detail": "025-String-in-a-string",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "026-count-a-in-a-sentence",
+        "description": "026-count-a-in-a-sentence",
+        "peekOfCode": "sentence = input(\"Insert a sentence: \").lower()\nprint(f\"How many times the letter 'A' appers?\\n {sentence.count('a')}\")\nprint(f\"When it first appers? {sentence.replace(' ','').find('a')}\")\nprint(f\"When it least appers? {sentence.replace(' ','').rfind('a')}\")",
+        "detail": "026-count-a-in-a-sentence",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "027-first-name-and-last-name",
+        "description": "027-first-name-and-last-name",
+        "peekOfCode": "name = input(\"Write your full name: \").split(' ')\nname_l = len(name)\nprint(f\"Your first name is {name[0]}\")\nprint(f\"Your last name is {name[name_l-1]}\")",
+        "detail": "027-first-name-and-last-name",
+        "documentation": {}
+    },
+    {
+        "label": "name_l",
+        "kind": 5,
+        "importPath": "027-first-name-and-last-name",
+        "description": "027-first-name-and-last-name",
+        "peekOfCode": "name_l = len(name)\nprint(f\"Your first name is {name[0]}\")\nprint(f\"Your last name is {name[name_l-1]}\")",
+        "detail": "027-first-name-and-last-name",
+        "documentation": {}
+    },
+    {
+        "label": "find_odd_or_pair",
+        "kind": 2,
+        "importPath": "030-odd-pair",
+        "description": "030-odd-pair",
+        "peekOfCode": "def find_odd_or_pair(*args):\n    odd_or_pair = ''\n    for numbers in args:\n        if numbers % 2 == 0:\n            odd_or_pair += f'O número {numbers} é par\\n'\n        else:\n            odd_or_pair += f'O número {numbers} é ímpar\\n'\n    return odd_or_pair\ntesting_odd_or_pair = find_odd_or_pair(1,2,3,4,5,6,7,8,9)\nprint(testing_odd_or_pair)",
+        "detail": "030-odd-pair",
+        "documentation": {}
+    },
+    {
+        "label": "testing_odd_or_pair",
+        "kind": 5,
+        "importPath": "030-odd-pair",
+        "description": "030-odd-pair",
+        "peekOfCode": "testing_odd_or_pair = find_odd_or_pair(1,2,3,4,5,6,7,8,9)\nprint(testing_odd_or_pair)",
+        "detail": "030-odd-pair",
+        "documentation": {}
+    }
+]

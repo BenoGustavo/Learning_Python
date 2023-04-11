@@ -1,0 +1,11 @@
+something = input('Enter something: ')
+
+print('The variable is a {}'.format(type(something)))
+print('The variable has " "? {}'.format(' ' in something))
+print('The variable has uppercases? {}'.format(something.upper() == something))
+print('The variable has lowercases? {}'.format(something.lower() == something))
+print('The variable has letters? {}'.format(something.isnumeric()))
+print('The variable has numbers? {}'.format(something.isdecimal()))
+print('The variable only have spaces? {}'.format(something.isspace()))
+print('The variable is alphanumeric? {}'.format(something.isalnum()))
+print('The variable is capitalizada? {}'.format(something.istitle()))
