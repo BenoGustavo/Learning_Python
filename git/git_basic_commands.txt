@@ -1,0 +1,17 @@
+#Clona um repositorio na maquina
+git clone url
+
+#Entrar dentro de uma pasta
+cd 
+
+#Mostrar pastas
+dir
+
+#Arquivos a serem enviados para o git
+git add 'nome do arquivo' ou . para tudo
+
+#Colocando dentro de um pacote
+git commit -m "comentario do commit"
+
+#Definitivamente faz o upload para o git
+git push
