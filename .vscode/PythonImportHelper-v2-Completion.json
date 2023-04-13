@@ -1,0 +1,2673 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "calendar",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "calendar",
+        "description": "calendar",
+        "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "turtle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "turtle",
+        "description": "turtle",
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "combinations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "permutations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "groupby",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "ray",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "description": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "peekOfCode": "ray = float(input('Insert the ray of the circle: '))\narea = pi * ray**2\nprint(f'Your circle with a ray of {ray}, have a area of {area}')",
+        "detail": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "description": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "peekOfCode": "area = pi * ray**2\nprint(f'Your circle with a ray of {ray}, have a area of {area}')",
+        "detail": "Python-Projects.exercicios-python-cod3r.Challenge-01-area-of-the-circle",
+        "documentation": {}
+    },
+    {
+        "label": "circulo",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "description": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "peekOfCode": "def circulo(raio):\n    return pi * float(raio)**2\nif __name__ == '__main__':\n    if len(sys.argv) < 2:\n        print(\"Informe o raio do circulo\")\n        print(\"Sintaxe: {} <raio>\".format(sys.argv[0][-20:]))\n    else:\n        raio = sys.argv[1]\n        area = circulo(raio)\n        print('área do círculo',area)",
+        "detail": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "description": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "peekOfCode": "name = input('afdsa')",
+        "detail": "Python-Projects.exercicios-python-cod3r.Modulation-circle",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.002-Respondendo-ao-usuario",
+        "description": "Python-Projects.exercicios-python-youtube.002-Respondendo-ao-usuario",
+        "peekOfCode": "nome = input('Qual seu nome? ')\nprint('Prazer em conhece-lo ' + nome)",
+        "detail": "Python-Projects.exercicios-python-youtube.002-Respondendo-ao-usuario",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "description": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "peekOfCode": "x = int(input('Enter a number: '))\ny = int(input('Enter another number: '))\nz = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "description": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "peekOfCode": "y = int(input('Enter another number: '))\nz = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "description": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "peekOfCode": "z = x+y\nprint('The sum of {} and {} is {}'.format(x,y,z))",
+        "detail": "Python-Projects.exercicios-python-youtube.003-Soma-entre-dois-numeros",
+        "documentation": {}
+    },
+    {
+        "label": "something",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.004-String-type",
+        "description": "Python-Projects.exercicios-python-youtube.004-String-type",
+        "peekOfCode": "something = input('Enter something: ')\nprint('The variable is a {}'.format(type(something)))\nprint('The variable has \" \"? {}'.format(' ' in something))\nprint('The variable has uppercases? {}'.format(something.upper() == something))\nprint('The variable has lowercases? {}'.format(something.lower() == something))\nprint('The variable has letters? {}'.format(something.isnumeric()))\nprint('The variable has numbers? {}'.format(something.isdecimal()))\nprint('The variable only have spaces? {}'.format(something.isspace()))\nprint('The variable is alphanumeric? {}'.format(something.isalnum()))\nprint('The variable is capitalizada? {}'.format(something.istitle()))",
+        "detail": "Python-Projects.exercicios-python-youtube.004-String-type",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "description": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "peekOfCode": "num = int (input('Type a number that you want to know his successor and predecessor: '))\nsuc = num+1\nante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "suc",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "description": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "peekOfCode": "suc = num+1\nante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "ante",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "description": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "peekOfCode": "ante = num-1\nprint('The number {} has the successor {} and predecessor {}'.format(num,suc,ante))",
+        "detail": "Python-Projects.exercicios-python-youtube.005-Sucessor and antecessor",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "description": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "peekOfCode": "num = int (input('Enter a number: '))\ndouble = num*2\ntriple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "double",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "description": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "peekOfCode": "double = num*2\ntriple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "triple",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "description": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "peekOfCode": "triple = num*3\nsquareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "squareroot",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "description": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "peekOfCode": "squareroot = math.sqrt (num)\nprint('The number {} has the double {} and triple {} and squareroot {}'.format(num,double,triple,squareroot))",
+        "detail": "Python-Projects.exercicios-python-youtube.006-Double.Triple and squareroot",
+        "documentation": {}
+    },
+    {
+        "label": "qnt",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "description": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "peekOfCode": "qnt = int(input('How many numbers do you want? '))\nx = 0\nfor i in range(qnt):\n    grade = int(input('Enter the grade: '))\n    x = (grade+x)\nArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "description": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "peekOfCode": "x = 0\nfor i in range(qnt):\n    grade = int(input('Enter the grade: '))\n    x = (grade+x)\nArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "ArithmeticAverage",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "description": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "peekOfCode": "ArithmeticAverage = x/qnt\nprint('The arithmetic average is {}'.format(ArithmeticAverage))",
+        "detail": "Python-Projects.exercicios-python-youtube.007-arithmetic average",
+        "documentation": {}
+    },
+    {
+        "label": "meters",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.008-Distance-convertion",
+        "description": "Python-Projects.exercicios-python-youtube.008-Distance-convertion",
+        "peekOfCode": "meters = float(input('Enter a distance in meters: '))\nprint('{}m meters is equal to {}cm centimeters and {}mm milimetters'.format(meters,meters*100,meters*1000))",
+        "detail": "Python-Projects.exercicios-python-youtube.008-Distance-convertion",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "x = int(input('Write the whished multiplication: '))\nz = int(input('How many times do you want to multiply?: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "z = int(input('How many times do you want to multiply?: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "res = 0\ny = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "y = x\ncount = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "peekOfCode": "count = 0\nfor i in range(z+1):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables-but-more-dificult",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "peekOfCode": "x = int(input('Write the whished multiplication: '))\nprint('\\n\\n')\nres = 0\ny = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "peekOfCode": "res = 0\ny = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "peekOfCode": "y = x\ncount = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "description": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "peekOfCode": "count = 0\nfor i in range(11):\n    res = x * count\n    count = count + 1\n    print('{} x {} = {}'.format(y,i,res))",
+        "detail": "Python-Projects.exercicios-python-youtube.009-multiplication-tables",
+        "documentation": {}
+    },
+    {
+        "label": "real",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "description": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "peekOfCode": "real = float(input('Insert how many R$ do you want to convert: '))\ndolar = real * 5.40\nprint('The value {} is equals to {} dolars'.format(real,dolar))",
+        "detail": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "documentation": {}
+    },
+    {
+        "label": "dolar",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "description": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "peekOfCode": "dolar = real * 5.40\nprint('The value {} is equals to {} dolars'.format(real,dolar))",
+        "detail": "Python-Projects.exercicios-python-youtube.010-Money-converter",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "description": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "peekOfCode": "height = float(input('How big is you wall?: '))\nwidth = float(input(\"What's the width of your wall?: \"))\nsqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "description": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "peekOfCode": "width = float(input(\"What's the width of your wall?: \"))\nsqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "sqrmeters",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "description": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "peekOfCode": "sqrmeters = height * width\n#a cada 2 metros quadrados de parede precisa de 2 litros de tinta\ntint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "tint",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "description": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "peekOfCode": "tint = sqrmeters/2\nprint(\"Your wall is {} big, and you will need {} liters of tint for painting it\".format(sqrmeters,tint))",
+        "detail": "Python-Projects.exercicios-python-youtube.011-Painters",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "description": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "peekOfCode": "num = float(input('Insert the number that you want to break: '))\nnumdec = num\nnumdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "numdec",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "description": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "peekOfCode": "numdec = num\nnumdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "numdec",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "description": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "peekOfCode": "numdec = numdec - int(num)\nprint('\\nThe number {} has the integer value of {} and {:.2f} floating\\n'.format(num,int(num),numdec))",
+        "detail": "Python-Projects.exercicios-python-youtube.016-Float-Num-to-Int-Num",
+        "documentation": {}
+    },
+    {
+        "label": "CatOp",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "description": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "peekOfCode": "CatOp = float(input('Insert the opposite cateto: '))\nCatADJ = float(input('\\nInsert the adjacent cateto: '))\nHip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "CatADJ",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "description": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "peekOfCode": "CatADJ = float(input('\\nInsert the adjacent cateto: '))\nHip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "Hip",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "description": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "peekOfCode": "Hip = CatOp**2 + CatADJ**2\nHip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "Hip",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "description": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "peekOfCode": "Hip = sqrt(Hip)\nprint('\\nThe hypotenuse is {}'.format(Hip))",
+        "detail": "Python-Projects.exercicios-python-youtube.017-Catetos-and-Hipotenusa",
+        "documentation": {}
+    },
+    {
+        "label": "angle",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "description": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "angle = float(input('Insert the wished angle: '))\ncos = math.cos(math.radians(angle))\nSin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "description": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "cos = math.cos(math.radians(angle))\nSin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "Sin",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "description": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "Sin = math.sin(math.radians(angle))\nTan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "Tan",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "description": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "peekOfCode": "Tan = math.tan(math.radians(angle))\nprint('The ANGLE is {:.2f} and his COS is {:.2f}, and the SIN is {:.2f}, and the TAN is {:.2f}'.format(angle,cos,Sin,Tan))",
+        "detail": "Python-Projects.exercicios-python-youtube.018-Seno-Cosseno-and-Tangente",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "description": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "peekOfCode": "num = int(input('How many studants do you want to add to the list?: '))\nlist = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nchosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "description": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "peekOfCode": "list = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nchosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "chosen",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "description": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "peekOfCode": "chosen = random.choice(list)\nprint(f'The list is {list}')\nprint(f'And the chosen one is {chosen}')",
+        "detail": "Python-Projects.exercicios-python-youtube.019-Random-Studant",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "description": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "peekOfCode": "num = int(input('How many studants do you want?: '))\nlist = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nrandom.shuffle(list)\nprint(f'The list shuffled list is {list}')",
+        "detail": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "description": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "peekOfCode": "list = []\nfor i in range(num):\n    list.append(input(f'Insert the {i+1} studant: '))\nrandom.shuffle(list)\nprint(f'The list shuffled list is {list}')",
+        "detail": "Python-Projects.exercicios-python-youtube.020-Random-Order",
+        "documentation": {}
+    },
+    {
+        "label": "user_name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "description": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "peekOfCode": "user_name = input('Write your full name: ')\nprint(f\"\\nYour name is {user_name}\")\nprint(f\"Your name in uppercase is {user_name.upper()}\")\nprint(f\"Your name in lowercase is {user_name.lower()}\")\nprint(f\"Your name have {len(user_name.replace(' ',''))} letters\")\nfirst_name = user_name.split()\nprint(f\"Your first name have {len(first_name[1])} letters\")",
+        "detail": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "description": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "peekOfCode": "first_name = user_name.split()\nprint(f\"Your first name have {len(first_name[1])} letters\")",
+        "detail": "Python-Projects.exercicios-python-youtube.022-text-analiser",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.023-numbers-digits",
+        "description": "Python-Projects.exercicios-python-youtube.023-numbers-digits",
+        "peekOfCode": "numbers = input(\"Write a number between 1 and 1000: \")\nif int(numbers) >= 1000 and int(numbers) <= 9999:\n    print(f\"thousand's: {numbers[0]}\")\n    print(f\"hundred's: {numbers[1]}\")\n    print(f\"dozen's: {numbers[2]}\")\n    print(f\"units's: {numbers[3]}\")\nelif int(numbers) >= 100 and int(numbers) < 1000:\n    print(f\"hundred's: {numbers[0]}\")\n    print(f\"dozen's: {numbers[1]}\")\n    print(f\"units's: {numbers[2]}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.023-numbers-digits",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.024-guess-the-world",
+        "description": "Python-Projects.exercicios-python-youtube.024-guess-the-world",
+        "peekOfCode": "city = input(\"Write the name of the city: \").lower()\nprint('santos' in city )",
+        "detail": "Python-Projects.exercicios-python-youtube.024-guess-the-world",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "description": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "peekOfCode": "name = input(\"Write your name: \").lower().split()\nprint('Your name have silva ?')\nflag = 0\nfor part_of_the_name in name:\n    if part_of_the_name == 'silva':\n        print('silva' in name )\n        flag += 1\nif flag == 0:\n    print(False)",
+        "detail": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "description": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "peekOfCode": "flag = 0\nfor part_of_the_name in name:\n    if part_of_the_name == 'silva':\n        print('silva' in name )\n        flag += 1\nif flag == 0:\n    print(False)",
+        "detail": "Python-Projects.exercicios-python-youtube.025-String-in-a-string",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.026-count-a-in-a-sentence",
+        "description": "Python-Projects.exercicios-python-youtube.026-count-a-in-a-sentence",
+        "peekOfCode": "sentence = input(\"Insert a sentence: \").lower()\nprint(f\"How many times the letter 'A' appers?\\n {sentence.count('a')}\")\nprint(f\"When it first appers? {sentence.replace(' ','').find('a')}\")\nprint(f\"When it least appers? {sentence.replace(' ','').rfind('a')}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.026-count-a-in-a-sentence",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "description": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "peekOfCode": "name = input(\"Write your full name: \").split(' ')\nname_l = len(name)\nprint(f\"Your first name is {name[0]}\")\nprint(f\"Your last name is {name[name_l-1]}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "documentation": {}
+    },
+    {
+        "label": "name_l",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "description": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "peekOfCode": "name_l = len(name)\nprint(f\"Your first name is {name[0]}\")\nprint(f\"Your last name is {name[name_l-1]}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.027-first-name-and-last-name",
+        "documentation": {}
+    },
+    {
+        "label": "find_odd_or_pair",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "description": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "peekOfCode": "def find_odd_or_pair(*args):\n    odd_or_pair = ''\n    for numbers in args:\n        if numbers % 2 == 0:\n            odd_or_pair += f'O número {numbers} é par\\n'\n        else:\n            odd_or_pair += f'O número {numbers} é ímpar\\n'\n    return odd_or_pair\ntesting_odd_or_pair = find_odd_or_pair(1,2,3,4,5,6,7,8,9)\nprint(testing_odd_or_pair)",
+        "detail": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "documentation": {}
+    },
+    {
+        "label": "testing_odd_or_pair",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "description": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "peekOfCode": "testing_odd_or_pair = find_odd_or_pair(1,2,3,4,5,6,7,8,9)\nprint(testing_odd_or_pair)",
+        "detail": "Python-Projects.exercicios-python-youtube.030-odd-pair",
+        "documentation": {}
+    },
+    {
+        "label": "major_minor",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "description": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "peekOfCode": "def major_minor(*args):\n    major=0\n    minor=args[0]\n    for numero in args:\n        if numero > major:\n            major = numero\n        if numero < minor:\n            minor = minor\n    return f'The major number is {major} and the minor is {minor}'\nnumber = major_minor(2,4,5,6,2,1,8,23,6)",
+        "detail": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "description": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "peekOfCode": "number = major_minor(2,4,5,6,2,1,8,23,6)\nprint(number)",
+        "detail": "Python-Projects.exercicios-python-youtube.033-minor-and-major-number",
+        "documentation": {}
+    },
+    {
+        "label": "salary_raise",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-youtube.034-salary-raise",
+        "description": "Python-Projects.exercicios-python-youtube.034-salary-raise",
+        "peekOfCode": "def salary_raise(salary):\n    if salary > 1250:\n        salary_r = salary * 0.10\n        salary += salary_r\n    if salary <= 1250:\n        salary_r = salary * 0.15\n        salary += salary_r\n    return salary\nprint(salary_raise(1000))",
+        "detail": "Python-Projects.exercicios-python-youtube.034-salary-raise",
+        "documentation": {}
+    },
+    {
+        "label": "salary",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "description": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "peekOfCode": "salary = input(\"Insert you salary: \")\nloan = input(\"Insert the loan value: \")\npayment_date = input(\"When you will finish your payment: \")\ntoday_year = date.today().year\ntry:\n    if int(payment_date) <= int(today_year):\n        print(\"Insert a valid date.\")\n    month_bill = (int(loan) / ((today_year - int(payment_date)) * 12) * -1)\n    salary_limit = (int(salary) * 0.30)\n    if  int(month_bill) < salary_limit:",
+        "detail": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "documentation": {}
+    },
+    {
+        "label": "loan",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "description": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "peekOfCode": "loan = input(\"Insert the loan value: \")\npayment_date = input(\"When you will finish your payment: \")\ntoday_year = date.today().year\ntry:\n    if int(payment_date) <= int(today_year):\n        print(\"Insert a valid date.\")\n    month_bill = (int(loan) / ((today_year - int(payment_date)) * 12) * -1)\n    salary_limit = (int(salary) * 0.30)\n    if  int(month_bill) < salary_limit:\n        print(f\"Your loan has been approved and the tuition is {month_bill:.2f}, have a nice day\")",
+        "detail": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "documentation": {}
+    },
+    {
+        "label": "payment_date",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "description": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "peekOfCode": "payment_date = input(\"When you will finish your payment: \")\ntoday_year = date.today().year\ntry:\n    if int(payment_date) <= int(today_year):\n        print(\"Insert a valid date.\")\n    month_bill = (int(loan) / ((today_year - int(payment_date)) * 12) * -1)\n    salary_limit = (int(salary) * 0.30)\n    if  int(month_bill) < salary_limit:\n        print(f\"Your loan has been approved and the tuition is {month_bill:.2f}, have a nice day\")\n    else:",
+        "detail": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "documentation": {}
+    },
+    {
+        "label": "today_year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "description": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "peekOfCode": "today_year = date.today().year\ntry:\n    if int(payment_date) <= int(today_year):\n        print(\"Insert a valid date.\")\n    month_bill = (int(loan) / ((today_year - int(payment_date)) * 12) * -1)\n    salary_limit = (int(salary) * 0.30)\n    if  int(month_bill) < salary_limit:\n        print(f\"Your loan has been approved and the tuition is {month_bill:.2f}, have a nice day\")\n    else:\n        print(\"The loan has been rejected, because the tuition is greather than 30% \\of your salary\")",
+        "detail": "Python-Projects.exercicios-python-youtube.036-salary-loan",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "description": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "peekOfCode": "number = input(\"Enter a integer number: \")\nprint(\"[1] - Binary\\n[2] - Octal\\n[3] - Hex\")\nop = input(\"\\nChoose a option: \")\nif op == '1':\n    print(f\"\\nThe binary of {number} is {bin(int(number))[2:]}\")\nelif op == \"2\":\n    print(f\"\\nThe octal of {number} is {oct(int(number))[2:]}\")\nelif op == '3':\n    print(f\"\\nThe hex of {number} is {hex(int(number))[2:]}\")\nelse:",
+        "detail": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "description": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "peekOfCode": "op = input(\"\\nChoose a option: \")\nif op == '1':\n    print(f\"\\nThe binary of {number} is {bin(int(number))[2:]}\")\nelif op == \"2\":\n    print(f\"\\nThe octal of {number} is {oct(int(number))[2:]}\")\nelif op == '3':\n    print(f\"\\nThe hex of {number} is {hex(int(number))[2:]}\")\nelse:\n    print(\"\\nPlease, enter with a valid value\")",
+        "detail": "Python-Projects.exercicios-python-youtube.037-number-base-converter",
+        "documentation": {}
+    },
+    {
+        "label": "first_number",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "description": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "peekOfCode": "first_number = input(\"Enter the first number: \")\nsecond_number = input(\"Enter the second number: \")\nif int(first_number) == int(second_number):\n    print(f\"The numbers are equals {first_number} == {second_number}\")\nelif int(first_number) > int(second_number):\n    print(f\"The first numbers is greater then the second number {first_number} > {second_number}\")\nelif int(first_number) < int(second_number):\n    print(f\"The second numbers is greater then the first number {first_number} < {second_number}\")\nelse:\n    print(\"Não deveria chegar aqui\")",
+        "detail": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "documentation": {}
+    },
+    {
+        "label": "second_number",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "description": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "peekOfCode": "second_number = input(\"Enter the second number: \")\nif int(first_number) == int(second_number):\n    print(f\"The numbers are equals {first_number} == {second_number}\")\nelif int(first_number) > int(second_number):\n    print(f\"The first numbers is greater then the second number {first_number} > {second_number}\")\nelif int(first_number) < int(second_number):\n    print(f\"The second numbers is greater then the first number {first_number} < {second_number}\")\nelse:\n    print(\"Não deveria chegar aqui\")",
+        "detail": "Python-Projects.exercicios-python-youtube.038-comparing-numbers",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "description": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "peekOfCode": "year = date.today().year\nborn_year = input(\"Insert your born year: \")\ntry:\n    conscription = year - int(born_year)\n    if conscription > 18:\n        time_to_make_the_conscription = ((int(born_year) + 18)-year)\n        conscription_year = year - (time_to_make_the_conscription * -1)\n        print(f\"\\nDo you need to make the conscription immediatly, you are {time_to_make_the_conscription * -1} years late\\n\")\n        print(f\"Your conscription was in {conscription_year}\")\n    elif conscription < 18:",
+        "detail": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "documentation": {}
+    },
+    {
+        "label": "born_year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "description": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "peekOfCode": "born_year = input(\"Insert your born year: \")\ntry:\n    conscription = year - int(born_year)\n    if conscription > 18:\n        time_to_make_the_conscription = ((int(born_year) + 18)-year)\n        conscription_year = year - (time_to_make_the_conscription * -1)\n        print(f\"\\nDo you need to make the conscription immediatly, you are {time_to_make_the_conscription * -1} years late\\n\")\n        print(f\"Your conscription was in {conscription_year}\")\n    elif conscription < 18:\n        conscription_year = born_year + 18",
+        "detail": "Python-Projects.exercicios-python-youtube.039-militar-conscription",
+        "documentation": {}
+    },
+    {
+        "label": "grade_average",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "description": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "peekOfCode": "def grade_average(a,b,*args):\n    average = a + b\n    for number in args:\n        average += number\n    average = average/(len(args)+2)\n    return average\naverage = grade_average(8,8,6,9)\nif average >= 5 and average <= 6.9:\n    print(\"Recuperação...\")\nelif average < 5:",
+        "detail": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "description": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "peekOfCode": "average = grade_average(8,8,6,9)\nif average >= 5 and average <= 6.9:\n    print(\"Recuperação...\")\nelif average < 5:\n    print(\"Reprovado...\")\nelif average >= 7:\n    print(\"Aprovado...\")",
+        "detail": "Python-Projects.exercicios-python-youtube.040-grade-average",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "description": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "peekOfCode": "year = date.today().year\nborn_year = input(\"Insert your year of birth: \")\ntry:\n    actual_age = year - int(born_year)\n    if actual_age > 0 and actual_age <= 9:\n        print(\"\\nYou are a mirim swimmer\")\n    elif actual_age > 9 and actual_age <= 14:\n        print(\"\\nYou are a infant swimmer\")\n    elif actual_age > 14 and actual_age <= 19:\n        print(\"\\nYou are a junior swimmer\")",
+        "detail": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "documentation": {}
+    },
+    {
+        "label": "born_year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "description": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "peekOfCode": "born_year = input(\"Insert your year of birth: \")\ntry:\n    actual_age = year - int(born_year)\n    if actual_age > 0 and actual_age <= 9:\n        print(\"\\nYou are a mirim swimmer\")\n    elif actual_age > 9 and actual_age <= 14:\n        print(\"\\nYou are a infant swimmer\")\n    elif actual_age > 14 and actual_age <= 19:\n        print(\"\\nYou are a junior swimmer\")\n    elif actual_age > 19 and actual_age <= 25:",
+        "detail": "Python-Projects.exercicios-python-youtube.041-swimmers-class",
+        "documentation": {}
+    },
+    {
+        "label": "side_1",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "description": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "peekOfCode": "side_1 = input(\"Insert the first side: \")\nside_2 = input(\"Insert the second side: \")\nside_3 = input(\"Insert the third side: \")\ntry:\n    equilatero = int(side_1) == int(side_2) and int(side_1) == int(side_3)\n    isoceles = int(side_1) == int(side_2) or int(side_1) == int(side_3)\n    escaleno = int(side_1) != int(side_2) and int(side_1) != int(side_3)\n    can_make_a_triangle = int(side_1) < int(side_2) + int(side_3) and int(\n        side_2) < int(side_1) + int(side_3) and int(side_3) < int(side_1) + int(side_2)\n    if can_make_a_triangle:",
+        "detail": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "documentation": {}
+    },
+    {
+        "label": "side_2",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "description": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "peekOfCode": "side_2 = input(\"Insert the second side: \")\nside_3 = input(\"Insert the third side: \")\ntry:\n    equilatero = int(side_1) == int(side_2) and int(side_1) == int(side_3)\n    isoceles = int(side_1) == int(side_2) or int(side_1) == int(side_3)\n    escaleno = int(side_1) != int(side_2) and int(side_1) != int(side_3)\n    can_make_a_triangle = int(side_1) < int(side_2) + int(side_3) and int(\n        side_2) < int(side_1) + int(side_3) and int(side_3) < int(side_1) + int(side_2)\n    if can_make_a_triangle:\n        print(\"\\nThis sides can make a triangle\")",
+        "detail": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "documentation": {}
+    },
+    {
+        "label": "side_3",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "description": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "peekOfCode": "side_3 = input(\"Insert the third side: \")\ntry:\n    equilatero = int(side_1) == int(side_2) and int(side_1) == int(side_3)\n    isoceles = int(side_1) == int(side_2) or int(side_1) == int(side_3)\n    escaleno = int(side_1) != int(side_2) and int(side_1) != int(side_3)\n    can_make_a_triangle = int(side_1) < int(side_2) + int(side_3) and int(\n        side_2) < int(side_1) + int(side_3) and int(side_3) < int(side_1) + int(side_2)\n    if can_make_a_triangle:\n        print(\"\\nThis sides can make a triangle\")\n        if equilatero:",
+        "detail": "Python-Projects.exercicios-python-youtube.042-types-of-triangle-v2",
+        "documentation": {}
+    },
+    {
+        "label": "imc_function",
+        "kind": 2,
+        "importPath": "Python-Projects.exercicios-python-youtube.043-IMC-calculator",
+        "description": "Python-Projects.exercicios-python-youtube.043-IMC-calculator",
+        "peekOfCode": "def imc_function(height,weight):\n    imc = weight / (height*height)\n    return int(imc)\nwhile True:\n    height = (input(\"Insert your height in meters: \"))\n    weight = (input(\"Insert your weight: \"))\n    try:\n        if float(height).is_integer():\n            height = float(height) / 100\n        print(\"\\n\")",
+        "detail": "Python-Projects.exercicios-python-youtube.043-IMC-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "pair",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.047-counting-pair-numbers",
+        "description": "Python-Projects.exercicios-python-youtube.047-counting-pair-numbers",
+        "peekOfCode": "pair = 0 ; odd = 0 \nfor i in range(51):\n    sleep(0.5)\n    if i % 2 == 0:\n        pair += 1\n        print(f\"\\nPair number {i}\")\n    else:\n        odd += 1\n        print(f\"\\nOdd number {i}\")\nprint(f\"\\nThere is {odd} odd numbers and {pair} pair numbers...\")",
+        "detail": "Python-Projects.exercicios-python-youtube.047-counting-pair-numbers",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_numbers",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "description": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "peekOfCode": "sum_of_numbers = 0\ncount_odd = 0\nfor i in range(0,501,3):\n    if i % 2 == 0:\n        continue\n    else:\n        sum_of_numbers += i\n        count_odd += 1\nprint(f\"There is {count_odd} odds numbers and the sum of them all is {sum_of_numbers}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "documentation": {}
+    },
+    {
+        "label": "count_odd",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "description": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "peekOfCode": "count_odd = 0\nfor i in range(0,501,3):\n    if i % 2 == 0:\n        continue\n    else:\n        sum_of_numbers += i\n        count_odd += 1\nprint(f\"There is {count_odd} odds numbers and the sum of them all is {sum_of_numbers}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.048-sum-of-all-odds-multiple-of-three",
+        "documentation": {}
+    },
+    {
+        "label": "today_year",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.054-older-age-and-underage",
+        "description": "Python-Projects.exercicios-python-youtube.054-older-age-and-underage",
+        "peekOfCode": "today_year = date.today().year\ntry:\n    major_age = 0\n    minor_age = 0\n    people_list = []\n    peoples = int(input(\"How many people do you want to know the age? \"))\n    for people_num in range(1,peoples+1):\n        birthyear = int(input(f\"Type the birth date of the {people_num}: \"))\n        age = today_year - birthyear\n        if age >= 18:",
+        "detail": "Python-Projects.exercicios-python-youtube.054-older-age-and-underage",
+        "documentation": {}
+    },
+    {
+        "label": "average_age",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "average_age = 0\nolder_men_name = ''\nolder_men_age = 0\npeoples = 0\nhow_many_girls_have_less_then_20 = 0\ngirls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "older_men_name",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "older_men_name = ''\nolder_men_age = 0\npeoples = 0\nhow_many_girls_have_less_then_20 = 0\ngirls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "older_men_age",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "older_men_age = 0\npeoples = 0\nhow_many_girls_have_less_then_20 = 0\ngirls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")\n        name = input(\"Type your name: \")",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "peoples",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "peoples = 0\nhow_many_girls_have_less_then_20 = 0\ngirls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")\n        name = input(\"Type your name: \")\n        age = input(\"Type your age: \")",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "how_many_girls_have_less_then_20",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "how_many_girls_have_less_then_20 = 0\ngirls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")\n        name = input(\"Type your name: \")\n        age = input(\"Type your age: \")\n        sex = input(\"Type your sex ([M]ale or [F]emale): \")",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "girls",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "girls = 0\ni = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")\n        name = input(\"Type your name: \")\n        age = input(\"Type your age: \")\n        sex = input(\"Type your sex ([M]ale or [F]emale): \")\n        if sex.upper()[0] == 'M' or sex.upper()[0] == \"F\":",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "description": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "peekOfCode": "i = 0\ntry:\n    user = int(input(\"Insert how many people do you want to sign: \"))\n    for i in range(1,user+1):\n        print(\"\\n\",\"=-\"*5,f\"People [{i}]\",\"=-\"*5,\"\\n\")\n        name = input(\"Type your name: \")\n        age = input(\"Type your age: \")\n        sex = input(\"Type your sex ([M]ale or [F]emale): \")\n        if sex.upper()[0] == 'M' or sex.upper()[0] == \"F\":\n            if sex.upper()[0] == 'M':",
+        "detail": "Python-Projects.exercicios-python-youtube.056-caracteristics-analyze",
+        "documentation": {}
+    },
+    {
+        "label": "sex",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.057-data-validation",
+        "description": "Python-Projects.exercicios-python-youtube.057-data-validation",
+        "peekOfCode": "sex = input(\"Type your gender [M/F]: \").replace(' ','').upper()[0]\nwhile sex not in 'MF':\n    sex = input(\"Insert a valid algument. Type your gender [M/F]: \").replace(' ','').upper()[0]\n    if sex in 'MF':\n        print(\"\\nSex collected with sucess\\n\")\nprint(f'Your sex is {sex}')",
+        "detail": "Python-Projects.exercicios-python-youtube.057-data-validation",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "description": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "peekOfCode": "times = 1\nmachine = randint(0,10)\ntry: \n    system(\"cls\")\n    print(\"Hello, im your computer...\")\n    print(\"Ï'm thinking in a number between 0 and 10.\")\n    print(\"Can you guess the number that i'm thinking?\")\n    guess = int(input(\"What's your guess? \"))\n    while guess != machine:\n        system(\"cls\")",
+        "detail": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "documentation": {}
+    },
+    {
+        "label": "machine",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "description": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "peekOfCode": "machine = randint(0,10)\ntry: \n    system(\"cls\")\n    print(\"Hello, im your computer...\")\n    print(\"Ï'm thinking in a number between 0 and 10.\")\n    print(\"Can you guess the number that i'm thinking?\")\n    guess = int(input(\"What's your guess? \"))\n    while guess != machine:\n        system(\"cls\")\n        if guess < machine:",
+        "detail": "Python-Projects.exercicios-python-youtube.058-guess-game-v2",
+        "documentation": {}
+    },
+    {
+        "label": "val_1",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.059-menu",
+        "description": "Python-Projects.exercicios-python-youtube.059-menu",
+        "peekOfCode": "val_1 = int(input(\"Insert the first number: \"))\nval_2 = int(input(\"Insert the second number: \"))\nwhile True:\n    try:\n        system(\"cls\")\n        print(\"Menu: What do you want to do...\")\n        print(\"[ 1 ] - Sum\")\n        print(\"[ 2 ] - Multiply\")\n        print(\"[ 3 ] - Biggest\")\n        print(\"[ 4 ] - New Numbers\")",
+        "detail": "Python-Projects.exercicios-python-youtube.059-menu",
+        "documentation": {}
+    },
+    {
+        "label": "val_2",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.059-menu",
+        "description": "Python-Projects.exercicios-python-youtube.059-menu",
+        "peekOfCode": "val_2 = int(input(\"Insert the second number: \"))\nwhile True:\n    try:\n        system(\"cls\")\n        print(\"Menu: What do you want to do...\")\n        print(\"[ 1 ] - Sum\")\n        print(\"[ 2 ] - Multiply\")\n        print(\"[ 3 ] - Biggest\")\n        print(\"[ 4 ] - New Numbers\")\n        print(\"[ 5 ] - Leave\\n\")",
+        "detail": "Python-Projects.exercicios-python-youtube.059-menu",
+        "documentation": {}
+    },
+    {
+        "label": "end_num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "description": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "peekOfCode": "end_num = 0\ncount = 0\nsum_num = 0\nnum = 0\ntry:\n    while int(end_num) != 999:\n        sum_num += num\n        count += 1\n        num = int(input(\"What number do you want? (999 to end): \"))\n        end_num = num",
+        "detail": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "description": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "peekOfCode": "count = 0\nsum_num = 0\nnum = 0\ntry:\n    while int(end_num) != 999:\n        sum_num += num\n        count += 1\n        num = int(input(\"What number do you want? (999 to end): \"))\n        end_num = num\n    print(f\"\\nDo you wrote {count-1} numbers, and the sum of them is {sum_num}\")",
+        "detail": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "documentation": {}
+    },
+    {
+        "label": "sum_num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "description": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "peekOfCode": "sum_num = 0\nnum = 0\ntry:\n    while int(end_num) != 999:\n        sum_num += num\n        count += 1\n        num = int(input(\"What number do you want? (999 to end): \"))\n        end_num = num\n    print(f\"\\nDo you wrote {count-1} numbers, and the sum of them is {sum_num}\")\nexcept ValueError:",
+        "detail": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "description": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "peekOfCode": "num = 0\ntry:\n    while int(end_num) != 999:\n        sum_num += num\n        count += 1\n        num = int(input(\"What number do you want? (999 to end): \"))\n        end_num = num\n    print(f\"\\nDo you wrote {count-1} numbers, and the sum of them is {sum_num}\")\nexcept ValueError:\n    print(\"\\nPlease, enter a valid value...\")",
+        "detail": "Python-Projects.exercicios-python-youtube.064-A-bunch-of-values",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "description": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "peekOfCode": "lista = []\nconclusao = 0\nwhile True:\n    cont = 0\n    os.system(\"cls\")\n    try:\n        print(f\"Barra de progresso: {conclusao} / {len(lista)} ou {(conclusao/len(lista)) * 100}%\\n\")\n    except ZeroDivisionError:\n        print(f\"Barra de progresso: {conclusao} / {len(lista)} ou 0%\\n\")\n    for item in lista: ",
+        "detail": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "documentation": {}
+    },
+    {
+        "label": "conclusao",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "description": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "peekOfCode": "conclusao = 0\nwhile True:\n    cont = 0\n    os.system(\"cls\")\n    try:\n        print(f\"Barra de progresso: {conclusao} / {len(lista)} ou {(conclusao/len(lista)) * 100}%\\n\")\n    except ZeroDivisionError:\n        print(f\"Barra de progresso: {conclusao} / {len(lista)} ou 0%\\n\")\n    for item in lista: \n        print(item,sep=' || ',end=\"\\n\")",
+        "detail": "Python-Projects.extras_testes.Lista_de_afazeres",
+        "documentation": {}
+    },
+    {
+        "label": "LongestWord",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.long_word",
+        "description": "Python-Projects.extras_testes.long_word",
+        "peekOfCode": "def LongestWord(sen):\n  bigger = 0\n  sen = sen.split()\n  for words in sen:\n    if len(words) >= bigger:\n      bigger = words\n  return sen\n# keep this function call here \nprint(LongestWord(input()))",
+        "detail": "Python-Projects.extras_testes.long_word",
+        "documentation": {}
+    },
+    {
+        "label": "proibido",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.long_word",
+        "description": "Python-Projects.extras_testes.long_word",
+        "peekOfCode": "proibido = '!@#$%^&*()|\\][{'';.,></?`~}]'\nblabla = 'somet!hing$#'\nfor letter in blabla:\n  if letter in proibido:\n    blabla.s\ndef LongestWord(sen):\n  bigger = 0\n  sen = sen.split()\n  for words in sen:\n    if len(words) >= bigger:",
+        "detail": "Python-Projects.extras_testes.long_word",
+        "documentation": {}
+    },
+    {
+        "label": "blabla",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.long_word",
+        "description": "Python-Projects.extras_testes.long_word",
+        "peekOfCode": "blabla = 'somet!hing$#'\nfor letter in blabla:\n  if letter in proibido:\n    blabla.s\ndef LongestWord(sen):\n  bigger = 0\n  sen = sen.split()\n  for words in sen:\n    if len(words) >= bigger:\n      bigger = words",
+        "detail": "Python-Projects.extras_testes.long_word",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_a_cima",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def raquete_a_cima():\n    y = raquete_a.ycor()\n    y += 25\n    raquete_a.sety(y)\ndef raquete_a_baixo():\n    y = raquete_a.ycor()\n    y -= 25\n    raquete_a.sety(y)\ndef raquete_b_cima():\n    y = raquete_b.ycor()",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_a_baixo",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def raquete_a_baixo():\n    y = raquete_a.ycor()\n    y -= 25\n    raquete_a.sety(y)\ndef raquete_b_cima():\n    y = raquete_b.ycor()\n    y += 25\n    raquete_b.sety(y)\ndef raquete_b_baixo():\n    y = raquete_b.ycor()",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_b_cima",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def raquete_b_cima():\n    y = raquete_b.ycor()\n    y += 25\n    raquete_b.sety(y)\ndef raquete_b_baixo():\n    y = raquete_b.ycor()\n    y -= 25\n    raquete_b.sety(y)\n#Pause\npaused = False",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_b_baixo",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def raquete_b_baixo():\n    y = raquete_b.ycor()\n    y -= 25\n    raquete_b.sety(y)\n#Pause\npaused = False\ndef unpause():\n    print(\"unpause() called\")\n    global paused\n    paused = False",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "unpause",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def unpause():\n    print(\"unpause() called\")\n    global paused\n    paused = False\ndef pause():\n    print(\"pause() called\")\n    global paused\n    paused = True\n    pausing()\ndef pausing():",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "pause",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def pause():\n    print(\"pause() called\")\n    global paused\n    paused = True\n    pausing()\ndef pausing():\n    if paused:\n        turtle.ontimer(pausing, 6000)\n# Teclado\njanela.listen()",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "pausing",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "def pausing():\n    if paused:\n        turtle.ontimer(pausing, 6000)\n# Teclado\njanela.listen()\njanela.onkeypress(pause , \"p\")\njanela.onkeypress(unpause , \"o\")\njanela.onkeypress(raquete_a_cima, \"w\")\njanela.onkeypress(raquete_a_baixo, \"s\")\njanela.onkeypress(raquete_b_cima, \"Up\")",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "janela",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "janela = turtle.Screen()\njanela.title(\"Pong\")\njanela.bgcolor(\"black\")\njanela.setup(width=800, height=600)\njanela.tracer(0)\n# Raquete A\nraquete_a = turtle.Turtle()\nraquete_a.speed(0)\nraquete_a.shape(\"square\")\nraquete_a.color(\"red\")",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_a",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "raquete_a = turtle.Turtle()\nraquete_a.speed(0)\nraquete_a.shape(\"square\")\nraquete_a.color(\"red\")\nraquete_a.shapesize(stretch_wid=5, stretch_len=1)\nraquete_a.penup()\nraquete_a.goto(-350, 0)\n# Raquete B\nraquete_b = turtle.Turtle()\nraquete_b.speed(0)",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "raquete_b",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "raquete_b = turtle.Turtle()\nraquete_b.speed(0)\nraquete_b.shape(\"square\")\nraquete_b.color(\"blue\")\nraquete_b.shapesize(stretch_wid=5, stretch_len=1)\nraquete_b.penup()\nraquete_b.goto(350, 0)\n# Bola\nbola = turtle.Turtle()\nbola.speed(0)",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "bola",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "bola = turtle.Turtle()\nbola.speed(0)\nbola.shape(\"circle\")\nbola.color(\"white\")\nbola.penup()\nbola.goto(0, 0)\nbola.dx = 0.1\nbola.dy = 0.1\n# Placar\nAzul = 0",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "bola.dx",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "bola.dx = 0.1\nbola.dy = 0.1\n# Placar\nAzul = 0\nVermelho = 0\nplacar = turtle.Turtle()\nplacar.write(f\"Azul {Azul} // Vermelho {Vermelho}\", center, comic-sans)\nplacar.color('white')\nplacar.\nplacar.goto(750,300)",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "bola.dy",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "bola.dy = 0.1\n# Placar\nAzul = 0\nVermelho = 0\nplacar = turtle.Turtle()\nplacar.write(f\"Azul {Azul} // Vermelho {Vermelho}\", center, comic-sans)\nplacar.color('white')\nplacar.\nplacar.goto(750,300)\n# Funções de movimento",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "Azul",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "Azul = 0\nVermelho = 0\nplacar = turtle.Turtle()\nplacar.write(f\"Azul {Azul} // Vermelho {Vermelho}\", center, comic-sans)\nplacar.color('white')\nplacar.\nplacar.goto(750,300)\n# Funções de movimento\ndef raquete_a_cima():\n    y = raquete_a.ycor()",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "Vermelho",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "Vermelho = 0\nplacar = turtle.Turtle()\nplacar.write(f\"Azul {Azul} // Vermelho {Vermelho}\", center, comic-sans)\nplacar.color('white')\nplacar.\nplacar.goto(750,300)\n# Funções de movimento\ndef raquete_a_cima():\n    y = raquete_a.ycor()\n    y += 25",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "placar",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "placar = turtle.Turtle()\nplacar.write(f\"Azul {Azul} // Vermelho {Vermelho}\", center, comic-sans)\nplacar.color('white')\nplacar.\nplacar.goto(750,300)\n# Funções de movimento\ndef raquete_a_cima():\n    y = raquete_a.ycor()\n    y += 25\n    raquete_a.sety(y)",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "paused",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong",
+        "description": "Python-Projects.extras_testes.pong",
+        "peekOfCode": "paused = False\ndef unpause():\n    print(\"unpause() called\")\n    global paused\n    paused = False\ndef pause():\n    print(\"pause() called\")\n    global paused\n    paused = True\n    pausing()",
+        "detail": "Python-Projects.extras_testes.pong",
+        "documentation": {}
+    },
+    {
+        "label": "Paddle",
+        "kind": 6,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "class Paddle:\n    COLOR = WHITE\n    def __init__(self,x,y,width,height):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n    def draw(self, win):\n        pygame.draw.rect(win, self.COLOR, (self.x, self.y, self.width, self.height))\ndef draw(win, paddles):",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "draw",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "def draw(win, paddles):\n    win.fill(BLACK)\n    for paddle in paddles:\n        paddle.draw(win)\n    pygame.display.update()\ndef main():\n    run = True\n    clock = pygame.time.Clock() #Make the game run at a limited FPS\n    left_paddle = Paddle(10, HEIGHT//2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)\n    right_paddle = Paddle(WIDTH - 10 - PADDLE_WIDTH ,HEIGHT//2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "def main():\n    run = True\n    clock = pygame.time.Clock() #Make the game run at a limited FPS\n    left_paddle = Paddle(10, HEIGHT//2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)\n    right_paddle = Paddle(WIDTH - 10 - PADDLE_WIDTH ,HEIGHT//2 - PADDLE_HEIGHT//2, PADDLE_WIDTH, PADDLE_HEIGHT)\n    # GameLoop and window verification\n    while run:\n        clock.tick(FPS)\n        draw(WIN, [left_paddle , right_paddle])\n        for event in pygame.event.get():",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "WIN",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "WIN = pygame.display.set_mode((WIDTH, HEIGHT))\n#Naming the game\npygame.display.set_caption(\"Pong in pygame\")\nFPS = 60\nWHITE = (255,255,255)\nBLACK = (0,0,0)\nPADDLE_WIDTH, PADDLE_HEIGHT = 20, 100\nclass Paddle:\n    COLOR = WHITE\n    def __init__(self,x,y,width,height):",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "FPS = 60\nWHITE = (255,255,255)\nBLACK = (0,0,0)\nPADDLE_WIDTH, PADDLE_HEIGHT = 20, 100\nclass Paddle:\n    COLOR = WHITE\n    def __init__(self,x,y,width,height):\n        self.x = x\n        self.y = y\n        self.width = width",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "WHITE",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "WHITE = (255,255,255)\nBLACK = (0,0,0)\nPADDLE_WIDTH, PADDLE_HEIGHT = 20, 100\nclass Paddle:\n    COLOR = WHITE\n    def __init__(self,x,y,width,height):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "BLACK",
+        "kind": 5,
+        "importPath": "Python-Projects.extras_testes.pong_in_pygame",
+        "description": "Python-Projects.extras_testes.pong_in_pygame",
+        "peekOfCode": "BLACK = (0,0,0)\nPADDLE_WIDTH, PADDLE_HEIGHT = 20, 100\nclass Paddle:\n    COLOR = WHITE\n    def __init__(self,x,y,width,height):\n        self.x = x\n        self.y = y\n        self.width = width\n        self.height = height\n    def draw(self, win):",
+        "detail": "Python-Projects.extras_testes.pong_in_pygame",
+        "documentation": {}
+    },
+    {
+        "label": "FirstReverse",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.reverse",
+        "description": "Python-Projects.extras_testes.reverse",
+        "peekOfCode": "def FirstReverse(strParam):\n  return strParam[::-1]\n# keep this function call here \nprint(FirstReverse(input()))",
+        "detail": "Python-Projects.extras_testes.reverse",
+        "documentation": {}
+    },
+    {
+        "label": "FirstFactorial",
+        "kind": 2,
+        "importPath": "Python-Projects.extras_testes.teste",
+        "description": "Python-Projects.extras_testes.teste",
+        "peekOfCode": "def FirstFactorial(num):\n    fat = int(num)\n    while True:\n        fat -= 1\n        if fat == 0:\n            break\n        num = int(num)*int(fat)\n    return num\n# keep this function call here \nprint(FirstFactorial(input()))",
+        "detail": "Python-Projects.extras_testes.teste",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "peekOfCode": "nome = input(\"Insira seu nome: \")\naltura = float(input(\"Insira sua altura em metros: \"))\npeso = int(input(\"Insira seu peso: \"))\nimc = (peso / (altura**2))\nprint(f\"O senhor(a) {nome} tem o IMC de {imc:.2f}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "peekOfCode": "altura = float(input(\"Insira sua altura em metros: \"))\npeso = int(input(\"Insira seu peso: \"))\nimc = (peso / (altura**2))\nprint(f\"O senhor(a) {nome} tem o IMC de {imc:.2f}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "peekOfCode": "peso = int(input(\"Insira seu peso: \"))\nimc = (peso / (altura**2))\nprint(f\"O senhor(a) {nome} tem o IMC de {imc:.2f}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "peekOfCode": "imc = (peso / (altura**2))\nprint(f\"O senhor(a) {nome} tem o IMC de {imc:.2f}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula28-desafio-imc",
+        "documentation": {}
+    },
+    {
+        "label": "primeiro_valor",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "peekOfCode": "primeiro_valor = input(\"Digite o primeiro valor: \")\nsegundo_valor =  input(\"Digite o segundo valor: \")\nif primeiro_valor > segundo_valor:\n    print(f\"O {primeiro_valor=} é maior que {segundo_valor=}\")\nelif segundo_valor > primeiro_valor:\n    print(f\"O {segundo_valor=} é maior que {primeiro_valor=}\")\nelse:\n    print(\"Os valores são iguais\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "documentation": {}
+    },
+    {
+        "label": "segundo_valor",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "peekOfCode": "segundo_valor =  input(\"Digite o segundo valor: \")\nif primeiro_valor > segundo_valor:\n    print(f\"O {primeiro_valor=} é maior que {segundo_valor=}\")\nelif segundo_valor > primeiro_valor:\n    print(f\"O {segundo_valor=} é maior que {primeiro_valor=}\")\nelse:\n    print(\"Os valores são iguais\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula37-desafio-if",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "peekOfCode": "name = input(\"Insira seu nome: \")\nage = input(\"Insira sua idade: \")\nif not name or not age:\n    print(\"Você não inseriu todas as informações necessarias.\")\nelse:\n    nameChar = len(name)\n    print(f\"Seu nome é {name}\")\n    print(f\"Seu nome invertido fica {name[::-1]}\")\n    print(f\"Seu nome tem {nameChar} letras\")\n    if ' ' in name:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "peekOfCode": "age = input(\"Insira sua idade: \")\nif not name or not age:\n    print(\"Você não inseriu todas as informações necessarias.\")\nelse:\n    nameChar = len(name)\n    print(f\"Seu nome é {name}\")\n    print(f\"Seu nome invertido fica {name[::-1]}\")\n    print(f\"Seu nome tem {nameChar} letras\")\n    if ' ' in name:\n        print(\"Seu nome tem espaços\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula46-desafio",
+        "documentation": {}
+    },
+    {
+        "label": "numero_str",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula48-try-except",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula48-try-except",
+        "peekOfCode": "numero_str = input(\n    'Vou dobrar o número que vc digitar: '\n)\ntry:\n    numero_float = float(numero_str)\n    print('FLOAT:', numero_float)\n    print(f'O dobro de {numero_str} é {numero_float * 2:.2f}')\nexcept:\n    print('Isso não é um número')\n# if numero_str.isdigit():",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula48-try-except",
+        "documentation": {}
+    },
+    {
+        "label": "Contantes",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "Contantes = \"Variaveis\" que não mudam e são escritas em letras maiusculas\nMuitas condições no mesmo if é ruim\n    <= Contagem de complexidade isso é ruim\n\"\"\"\nvelocidade = 60\nlocal_carro = 101\nRADAR_1 = 60\nLOCAL_1 = 100\nRADAR_RANGE = 1\nif velocidade > RADAR_1:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "velocidade",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "velocidade = 60\nlocal_carro = 101\nRADAR_1 = 60\nLOCAL_1 = 100\nRADAR_RANGE = 1\nif velocidade > RADAR_1:\n    if (local_carro >= LOCAL_1 - RADAR_RANGE) and (local_carro <= LOCAL_1 + RADAR_RANGE):\n        print(\"Seu carro foi multado\")\n    else:\n        print(\"O carro não está passando no radar\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "local_carro",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "local_carro = 101\nRADAR_1 = 60\nLOCAL_1 = 100\nRADAR_RANGE = 1\nif velocidade > RADAR_1:\n    if (local_carro >= LOCAL_1 - RADAR_RANGE) and (local_carro <= LOCAL_1 + RADAR_RANGE):\n        print(\"Seu carro foi multado\")\n    else:\n        print(\"O carro não está passando no radar\")\nelse:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "RADAR_1",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "RADAR_1 = 60\nLOCAL_1 = 100\nRADAR_RANGE = 1\nif velocidade > RADAR_1:\n    if (local_carro >= LOCAL_1 - RADAR_RANGE) and (local_carro <= LOCAL_1 + RADAR_RANGE):\n        print(\"Seu carro foi multado\")\n    else:\n        print(\"O carro não está passando no radar\")\nelse:\n    print(\"O carro não está acima da velocidade permitada\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "LOCAL_1",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "LOCAL_1 = 100\nRADAR_RANGE = 1\nif velocidade > RADAR_1:\n    if (local_carro >= LOCAL_1 - RADAR_RANGE) and (local_carro <= LOCAL_1 + RADAR_RANGE):\n        print(\"Seu carro foi multado\")\n    else:\n        print(\"O carro não está passando no radar\")\nelse:\n    print(\"O carro não está acima da velocidade permitada\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "RADAR_RANGE",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "peekOfCode": "RADAR_RANGE = 1\nif velocidade > RADAR_1:\n    if (local_carro >= LOCAL_1 - RADAR_RANGE) and (local_carro <= LOCAL_1 + RADAR_RANGE):\n        print(\"Seu carro foi multado\")\n    else:\n        print(\"O carro não está passando no radar\")\nelse:\n    print(\"O carro não está acima da velocidade permitada\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula49-variaveis-e-constantes",
+        "documentation": {}
+    },
+    {
+        "label": "numero_inteiro",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-01",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-01",
+        "peekOfCode": "numero_inteiro = input(\"Digite um número inteiro: \")\ntry:\n    par_ou_impar = int(numero_inteiro)% 2 == 0\n    if par_ou_impar:\n        print(\"Seu número é par\")\n    else:\n        print(\"Seu número é impar\")\nexcept:\n    print('Isso não é um número inteiro')",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-01",
+        "documentation": {}
+    },
+    {
+        "label": "horas",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-02",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-02",
+        "peekOfCode": "horas = input(\"Insira as horas: \")\ntry:\n    manha = int(horas) > 0 and int(horas) <= 11\n    tarde = int(horas) >= 12 and int(horas) <= 17\n    noite = int(horas) >= 18 and int(horas) <= 23\n    inexistente = int(horas) >=24\n    if manha:\n        print(\"Bom Dia!!\")\n    if tarde:\n        print(\"Boa Tarde!!\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-02",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-03",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-03",
+        "peekOfCode": "name = input(\"Escreva seu primeiro nome: \")\ntry:\n    len_name = len(name)\n    nome_zerado = len_name < 1\n    nome_curto = len_name >= 1 and len_name <= 4\n    nome_normal = len_name >= 5 and len_name <= 6\n    nome_grande = len_name > 6\n    if nome_zerado:\n        print(\"Seu nome tem ZERO letras\")\n    if nome_curto:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.Aula53-desafio-03",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "frase = input('Escreva a frase que deseja analisar: ')\ni=0\nletra_atual = ''\nmaior_aparecido = 0\ncontagem_atual = 0\nindice_do_mais_aparecido = 0\nrepetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "letra_atual",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "letra_atual = ''\nmaior_aparecido = 0\ncontagem_atual = 0\nindice_do_mais_aparecido = 0\nrepetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':\n        i +=1\n        continue",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "maior_aparecido",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "maior_aparecido = 0\ncontagem_atual = 0\nindice_do_mais_aparecido = 0\nrepetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':\n        i +=1\n        continue\n    contagem_atual = frase.count(letra_atual)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "contagem_atual",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "contagem_atual = 0\nindice_do_mais_aparecido = 0\nrepetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':\n        i +=1\n        continue\n    contagem_atual = frase.count(letra_atual)\n    if contagem_atual == maior_aparecido:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "indice_do_mais_aparecido",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "indice_do_mais_aparecido = 0\nrepetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':\n        i +=1\n        continue\n    contagem_atual = frase.count(letra_atual)\n    if contagem_atual == maior_aparecido:\n        repetido = contagem_atual",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "repetido",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "peekOfCode": "repetido = 0\nwhile i < len(frase):\n    letra_atual = frase[i]\n    if letra_atual == ' ':\n        i +=1\n        continue\n    contagem_atual = frase.count(letra_atual)\n    if contagem_atual == maior_aparecido:\n        repetido = contagem_atual\n    if contagem_atual > maior_aparecido:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula69-desafio-contagem-de-letras",
+        "documentation": {}
+    },
+    {
+        "label": "letras_validas",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "letras_validas = 'abcdefghijklmnopqrstuvwxyzç'\nlista_palavras_secreta = ['paralelepipedo','maça','banana','refresco','tchola']\npalavra_secreta = lista_palavras_secreta[randint(0,len(lista_palavras_secreta)-1)]\nerros = 0\nlista_erros = []\nlista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "lista_palavras_secreta",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "lista_palavras_secreta = ['paralelepipedo','maça','banana','refresco','tchola']\npalavra_secreta = lista_palavras_secreta[randint(0,len(lista_palavras_secreta)-1)]\nerros = 0\nlista_erros = []\nlista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "palavra_secreta",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "palavra_secreta = lista_palavras_secreta[randint(0,len(lista_palavras_secreta)-1)]\nerros = 0\nlista_erros = []\nlista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "erros",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "erros = 0\nlista_erros = []\nlista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")\n        print(f\"\\n\\nParabéns, você acertou a palavra com {erros} erros, a palavras era {palavra_secreta}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "lista_erros",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "lista_erros = []\nlista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")\n        print(f\"\\n\\nParabéns, você acertou a palavra com {erros} erros, a palavras era {palavra_secreta}\")\n        break",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "lista_acertos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "lista_acertos = []\ntentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")\n        print(f\"\\n\\nParabéns, você acertou a palavra com {erros} erros, a palavras era {palavra_secreta}\")\n        break\n    # definindo jogada",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "tentativa",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "tentativa = ''\nacertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")\n        print(f\"\\n\\nParabéns, você acertou a palavra com {erros} erros, a palavras era {palavra_secreta}\")\n        break\n    # definindo jogada\n    print(f\"\\n\\nLetras erradas já utilizadas {lista_erros}. Quantidade de erros {erros}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "acertos_em_ordem",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "peekOfCode": "acertos_em_ordem = ''\nwhile True:\n    #vitoria por quantidade de acertos\n    if acertos_em_ordem == palavra_secreta:\n        os.system(\"cls\")\n        print(f\"\\n\\nParabéns, você acertou a palavra com {erros} erros, a palavras era {palavra_secreta}\")\n        break\n    # definindo jogada\n    print(f\"\\n\\nLetras erradas já utilizadas {lista_erros}. Quantidade de erros {erros}\")\n    print(f\"Letras acertadas {acertos_em_ordem}\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula75-desafio-palavra-secreta",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "nome = input(\"Digite seu nome: \")\nsobrenome = input(\"Digite seu sobrenome: \")\nidade = int(input(\"Digite sua idade: \"))\nano_de_nascimento = 2022 - idade\nmaior_de_idade = idade >= 18\naltura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "sobrenome",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "sobrenome = input(\"Digite seu sobrenome: \")\nidade = int(input(\"Digite sua idade: \"))\nano_de_nascimento = 2022 - idade\nmaior_de_idade = idade >= 18\naltura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)\nprint(\"É maior de idade?\", maior_de_idade)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "idade = int(input(\"Digite sua idade: \"))\nano_de_nascimento = 2022 - idade\nmaior_de_idade = idade >= 18\naltura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)\nprint(\"É maior de idade?\", maior_de_idade)\nprint(\"Altura em metros:\", altura)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "ano_de_nascimento",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "ano_de_nascimento = 2022 - idade\nmaior_de_idade = idade >= 18\naltura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)\nprint(\"É maior de idade?\", maior_de_idade)\nprint(\"Altura em metros:\", altura)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "maior_de_idade",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "maior_de_idade = idade >= 18\naltura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)\nprint(\"É maior de idade?\", maior_de_idade)\nprint(\"Altura em metros:\", altura)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "peekOfCode": "altura = float(input(\"Digite sua altura: \"))\nprint(\"\\n\\nNome:\", nome)\nprint(\"Sobrenome:\", sobrenome)\nprint(\"Idade:\", idade)\nprint(\"Ano de nascimento:\", ano_de_nascimento)\nprint(\"É maior de idade?\", maior_de_idade)\nprint(\"Altura em metros:\", altura)",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula8-desafio-variaveis",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula85-desafio-indices-de-uma-lista",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula85-desafio-indices-de-uma-lista",
+        "peekOfCode": "lista = ['Maria','João','Guilherme','Gustavo','Jorge']\ni=0\nfor nome in lista:\n    print(i,nome)\n    i += 1",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula85-desafio-indices-de-uma-lista",
+        "documentation": {}
+    },
+    {
+        "label": "lista_de_compras",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "peekOfCode": "lista_de_compras = []\ncomandos_validos = 'adddelclearsair'\nwhile True:\n    acao = input(\"Comandos - Lista de compras\\n\\nAdicionar[add] - Deletar [del]\\nLimpar lista[Clear] - Sair para [sair]: \")\n    try:\n        if acao not in comandos_validos:\n            system(\"cls\")\n            print(\"\\nInsira um comando valido\\n\")\n            continue\n        if acao == 'add':",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "documentation": {}
+    },
+    {
+        "label": "comandos_validos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "peekOfCode": "comandos_validos = 'adddelclearsair'\nwhile True:\n    acao = input(\"Comandos - Lista de compras\\n\\nAdicionar[add] - Deletar [del]\\nLimpar lista[Clear] - Sair para [sair]: \")\n    try:\n        if acao not in comandos_validos:\n            system(\"cls\")\n            print(\"\\nInsira um comando valido\\n\")\n            continue\n        if acao == 'add':\n            system(\"cls\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula89-desafio-lista-de-compras",
+        "documentation": {}
+    },
+    {
+        "label": "ultimos_nove_digitos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "ultimos_nove_digitos = cpf[:-3]\ncontador = 10\nPrimeiro_digito = 0\nfor numeros in ultimos_nove_digitos:\n    if numeros == '.':\n        continue\n    Primeiro_digito += int(numeros) * contador\n    contador=contador-1\nPrimeiro_digito = ((Primeiro_digito*10)%11)\nif Primeiro_digito > 9:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "contador = 10\nPrimeiro_digito = 0\nfor numeros in ultimos_nove_digitos:\n    if numeros == '.':\n        continue\n    Primeiro_digito += int(numeros) * contador\n    contador=contador-1\nPrimeiro_digito = ((Primeiro_digito*10)%11)\nif Primeiro_digito > 9:\n    Primeiro_digito = 0",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "Primeiro_digito",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "Primeiro_digito = 0\nfor numeros in ultimos_nove_digitos:\n    if numeros == '.':\n        continue\n    Primeiro_digito += int(numeros) * contador\n    contador=contador-1\nPrimeiro_digito = ((Primeiro_digito*10)%11)\nif Primeiro_digito > 9:\n    Primeiro_digito = 0\nelse:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "Primeiro_digito",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "Primeiro_digito = ((Primeiro_digito*10)%11)\nif Primeiro_digito > 9:\n    Primeiro_digito = 0\nelse:\n    Primeiro_digito = Primeiro_digito\n#Calculo do segundo digito do CPF\n#Passam a ser dez digitos por conta do valor acrescentado\nultimos_dez_digitos = ultimos_nove_digitos + str(Primeiro_digito)\ncontador = 11\nSegundo_digito = 0",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "ultimos_dez_digitos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "ultimos_dez_digitos = ultimos_nove_digitos + str(Primeiro_digito)\ncontador = 11\nSegundo_digito = 0\nfor numeros in ultimos_dez_digitos:\n    if numeros == '.':\n        continue\n    Segundo_digito += int(numeros) * contador\n    contador=contador-1\nSegundo_digito = ((Segundo_digito*10)%11)\nif Segundo_digito > 9:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "contador = 11\nSegundo_digito = 0\nfor numeros in ultimos_dez_digitos:\n    if numeros == '.':\n        continue\n    Segundo_digito += int(numeros) * contador\n    contador=contador-1\nSegundo_digito = ((Segundo_digito*10)%11)\nif Segundo_digito > 9:\n    Segundo_digito = 0",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "Segundo_digito",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "Segundo_digito = 0\nfor numeros in ultimos_dez_digitos:\n    if numeros == '.':\n        continue\n    Segundo_digito += int(numeros) * contador\n    contador=contador-1\nSegundo_digito = ((Segundo_digito*10)%11)\nif Segundo_digito > 9:\n    Segundo_digito = 0\nelse:",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "Segundo_digito",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "Segundo_digito = ((Segundo_digito*10)%11)\nif Segundo_digito > 9:\n    Segundo_digito = 0\nelse:\n    Segundo_digito = Segundo_digito\nCPF_GERADO = f'{ultimos_nove_digitos}-{Primeiro_digito}{Segundo_digito}'\nif cpf == CPF_GERADO:\n    print(f\"\\nO CPF [{cpf}] enviado é válido\\n\")\nelse:\n    print(f\"\\nO CPF [{cpf}] enviado é invalido\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "CPF_GERADO",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "description": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "peekOfCode": "CPF_GERADO = f'{ultimos_nove_digitos}-{Primeiro_digito}{Segundo_digito}'\nif cpf == CPF_GERADO:\n    print(f\"\\nO CPF [{cpf}] enviado é válido\\n\")\nelse:\n    print(f\"\\nO CPF [{cpf}] enviado é invalido\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_1_Logica_de_programação.aula97-validador-de-cpf",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_na_tela",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "peekOfCode": "def imprimir_na_tela(a = 'Nada inserido',b = 'Nada inserido',c = 'Nada inserido'):\n    print(f\"Imprimindo na tela o que você escrever em [a]: [{a}]\")\n    print(f\"Imprimindo na tela o que você escrever em [b]: [{b}]\")\n    print(f\"Imprimindo na tela o que você escrever em [c]: [{c}]\")\n#Exemplo Soma()\ndef soma(a ,b , c=None):\n    if c is not None:\n        print(\"Somei A + B + C para vc: \")\n        return(a+b+c)\n    else:",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "peekOfCode": "def soma(a ,b , c=None):\n    if c is not None:\n        print(\"Somei A + B + C para vc: \")\n        return(a+b+c)\n    else:\n        print(\"Somei A + B para vc: \")\n        return(a+b)\n#utilizando as def\nprint(soma(5,5))\nprint(soma(5,5,5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula104_funcao_def",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "peekOfCode": "def somar(*args):\n    total = 0\n    for numero in args:\n        total += numero\n    return total \nteste_soma_funcao = somar(2,2,2)\nprint(teste_soma_funcao)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "documentation": {}
+    },
+    {
+        "label": "teste_soma_funcao",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "peekOfCode": "teste_soma_funcao = somar(2,2,2)\nprint(teste_soma_funcao)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula110_funcao_args",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacao",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "peekOfCode": "def multiplicacao(*args):\n    total = 1\n    for numeros in args:\n        total *= numeros\n    return total\ndef encontre_impar_ou_par(*args):\n    impar_ou_par = ''\n    for numeros in args:\n        if numeros % 2 == 0:\n            impar_ou_par += f'O número {numeros} é par\\n'",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "encontre_impar_ou_par",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "peekOfCode": "def encontre_impar_ou_par(*args):\n    impar_ou_par = ''\n    for numeros in args:\n        if numeros % 2 == 0:\n            impar_ou_par += f'O número {numeros} é par\\n'\n        else:\n            impar_ou_par += f'O número {numeros} é ímpar\\n'\n    return impar_ou_par\ntestando_uma_nova_funcao = encontre_impar_ou_par(1,2,3,4,5,6,7,8,9)\nprint(testando_uma_nova_funcao)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "testando_uma_nova_funcao",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "peekOfCode": "testando_uma_nova_funcao = encontre_impar_ou_par(1,2,3,4,5,6,7,8,9)\nprint(testando_uma_nova_funcao)\ntestando_uma_nova_funcao = multiplicacao(5,5,5)\nprint(testando_uma_nova_funcao)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "testando_uma_nova_funcao",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "peekOfCode": "testando_uma_nova_funcao = multiplicacao(5,5,5)\nprint(testando_uma_nova_funcao)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula112_desafio_funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicador",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "peekOfCode": "def multiplicador(a):\n    def multiplicar(numero):\n        return numero * a\n    return multiplicar\ndobro = multiplicador(2)\ntriplo = multiplicador(3)\nquadruplo = multiplicador(4)\nquintuplu = multiplicador(5)\nprint(dobro(5))\nprint(triplo(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "documentation": {}
+    },
+    {
+        "label": "dobro",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "peekOfCode": "dobro = multiplicador(2)\ntriplo = multiplicador(3)\nquadruplo = multiplicador(4)\nquintuplu = multiplicador(5)\nprint(dobro(5))\nprint(triplo(5))\nprint(quadruplo(5))\nprint(quintuplu(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "documentation": {}
+    },
+    {
+        "label": "triplo",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "peekOfCode": "triplo = multiplicador(3)\nquadruplo = multiplicador(4)\nquintuplu = multiplicador(5)\nprint(dobro(5))\nprint(triplo(5))\nprint(quadruplo(5))\nprint(quintuplu(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "documentation": {}
+    },
+    {
+        "label": "quadruplo",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "peekOfCode": "quadruplo = multiplicador(4)\nquintuplu = multiplicador(5)\nprint(dobro(5))\nprint(triplo(5))\nprint(quadruplo(5))\nprint(quintuplu(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "documentation": {}
+    },
+    {
+        "label": "quintuplu",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "peekOfCode": "quintuplu = multiplicador(5)\nprint(dobro(5))\nprint(triplo(5))\nprint(quadruplo(5))\nprint(quintuplu(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula116_desafio_funcao_que_retorna_funcao",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "peekOfCode": "pessoa = {}\n#Posso atribuir um nome a uma chave de dicionario\nchave = \"nome\"\n#Adicionando valores dentro do dict\npessoa[chave] = 'Gustavo'\npessoa['sobrenome'] = 'Gorges'\n#Mostrando os valores que existem no dict\nprint(pessoa[chave])\nprint(pessoa['sobrenome'])\n# del pessoa['sobrenome']",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "documentation": {}
+    },
+    {
+        "label": "chave",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "peekOfCode": "chave = \"nome\"\n#Adicionando valores dentro do dict\npessoa[chave] = 'Gustavo'\npessoa['sobrenome'] = 'Gorges'\n#Mostrando os valores que existem no dict\nprint(pessoa[chave])\nprint(pessoa['sobrenome'])\n# del pessoa['sobrenome']\nprint(pessoa['sobrenome'])",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa[chave]",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "peekOfCode": "pessoa[chave] = 'Gustavo'\npessoa['sobrenome'] = 'Gorges'\n#Mostrando os valores que existem no dict\nprint(pessoa[chave])\nprint(pessoa['sobrenome'])\n# del pessoa['sobrenome']\nprint(pessoa['sobrenome'])",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa['sobrenome']",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "peekOfCode": "pessoa['sobrenome'] = 'Gorges'\n#Mostrando os valores que existem no dict\nprint(pessoa[chave])\nprint(pessoa['sobrenome'])\n# del pessoa['sobrenome']\nprint(pessoa['sobrenome'])",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula119_introdução_a_dict",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula120_metodos_dict",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula120_metodos_dict",
+        "peekOfCode": "pessoa = {\n    'nome': 'Luiz Otávio',\n    'sobrenome': 'Miranda',\n    'idade': 900,\n}\npessoa.setdefault('idade', 0)\nprint(pessoa['idade'])\n# print(len(pessoa))\n# print(list(pessoa.keys()))\n# print(list(pessoa.values()))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula120_metodos_dict",
+        "documentation": {}
+    },
+    {
+        "label": "acertos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "peekOfCode": "acertos = 0\ncontador = 0\nperguntas = [\n    {\n        'Pergunta': 'Quanto é 2+2?',\n        'Opções': ['1', '3', '4', '5'],\n        'Resposta': '3',\n    },\n    {\n        'Pergunta': 'Quanto é 9*9?',",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "peekOfCode": "contador = 0\nperguntas = [\n    {\n        'Pergunta': 'Quanto é 2+2?',\n        'Opções': ['1', '3', '4', '5'],\n        'Resposta': '3',\n    },\n    {\n        'Pergunta': 'Quanto é 9*9?',\n        'Opções': ['83', '82', '90', '81'],",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "documentation": {}
+    },
+    {
+        "label": "perguntas",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "peekOfCode": "perguntas = [\n    {\n        'Pergunta': 'Quanto é 2+2?',\n        'Opções': ['1', '3', '4', '5'],\n        'Resposta': '3',\n    },\n    {\n        'Pergunta': 'Quanto é 9*9?',\n        'Opções': ['83', '82', '90', '81'],\n        'Resposta': '4',",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula123_desafio_perguntas_e_respostas",
+        "documentation": {}
+    },
+    {
+        "label": "encontrar_primeiro_duplicado",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "peekOfCode": "def encontrar_primeiro_duplicado(lista_de_inteiros):\n    numeros_checados = set()\n    primeiro_duplicado = -1\n    for numero in lista_de_inteiros:\n        if numero in numeros_checados:\n            primeiro_duplicado = numero\n            break\n        numeros_checados.add(numero)\n    return primeiro_duplicado\nfor lista in lista_de_listas_de_inteiros:",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "documentation": {}
+    },
+    {
+        "label": "lista_de_listas_de_inteiros",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "peekOfCode": "lista_de_listas_de_inteiros = [\n    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    [9, 1, 8, 9, 9, 7, 2, 1, 6, 8],\n    [1, 3, 2, 2, 8, 6, 5, 9, 6, 7],\n    [3, 8, 2, 8, 6, 7, 7, 3, 1, 9],\n    [4, 8, 8, 8, 5, 1, 10, 3, 1, 7],\n    [1, 3, 7, 2, 2, 1, 5, 1, 9, 9],\n    [10, 2, 2, 1, 3, 5, 10, 5, 10, 1],\n    [1, 6, 1, 5, 1, 1, 1, 4, 7, 3],\n    [1, 3, 7, 1, 10, 5, 9, 2, 5, 7],",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula130_desafio_item_duplicado",
+        "documentation": {}
+    },
+    {
+        "label": "executa",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "peekOfCode": "def executa(funcao, *args):\n    return funcao(*args)\n# def soma(x, y):\n#     return x + y\n# def cria_multiplicador(multiplicador):\n#     def multiplica(numero):\n#         return numero * multiplicador\n#     return multiplica\n# duplica = cria_multiplicador(2)\n#Função de multiplicação",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "documentation": {}
+    },
+    {
+        "label": "duplica",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "peekOfCode": "duplica = executa(lambda m: lambda n: n * m,2)\nprint(duplica(2))\n#Função de soma\nprint(executa(lambda x, y: x + y,2, 3),)\nprint(executa(lambda *args: sum(args),1, 2, 3, 4, 5, 6, 7)\n)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula133_lamda",
+        "documentation": {}
+    },
+    {
+        "label": "generator",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "peekOfCode": "def generator(n=0, maximum=10):\n    while True: #LOOP INFINITO\n        yield n #PAUSA A FUNÇÃO E RETORNA CERTO VALOR, TRANSFORMANDO O MESMO EM UM ITERAVEL\n        n += 1\n        if n >= maximum: #PARA A FUNÇÃO E RETORNA NADA\n            return\ngen = generator(n=10,maximum=100) #DA O VALOR A UMA VARIAVEL E TAMBÉM O VALOR MAXIMO E O MINIMO\nfor n in gen:\n    print(n) #FAZ A ITERAÇÃO DOS VALORES",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "documentation": {}
+    },
+    {
+        "label": "gen",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "peekOfCode": "gen = generator(n=10,maximum=100) #DA O VALOR A UMA VARIAVEL E TAMBÉM O VALOR MAXIMO E O MINIMO\nfor n in gen:\n    print(n) #FAZ A ITERAÇÃO DOS VALORES",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula147_generator_e_função_que_pausa",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "contador = 0\nprodutos = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},\n    {'nome': 'Produto 2', 'preco': 105.87},\n    {'nome': 'Produto 4', 'preco': 69.90},\n]\nprint(\"Produtos Originais\")\nprint(*produtos, sep=\"\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "produtos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "produtos = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},\n    {'nome': 'Produto 2', 'preco': 105.87},\n    {'nome': 'Produto 4', 'preco': 69.90},\n]\nprint(\"Produtos Originais\")\nprint(*produtos, sep=\"\\n\")\nprint(\"\\n\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "novos_produtos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "novos_produtos = dc(produtos)\nfor lista in produtos:\n    porcentagem = lista['preco'] * 0.10\n    novo_valor = lista['preco'] + porcentagem\n    lista['preco'] = round(novo_valor, 2)\n    novos_produtos[contador].update({\"preco\": lista['preco']})\n    contador += 1\nprint(\"Produtos 10%\")\nprint(*novos_produtos, sep=\"\\n\")\nprint(\"\\n\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "produtos_ordenados_por_nome",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "produtos_ordenados_por_nome = dc(novos_produtos)\nprodutos_ordenados_por_nome = sorted(produtos_ordenados_por_nome, key=lambda d:d['nome'])\nprint(\"Produtos Ordenados por nome\")\nprint(*produtos_ordenados_por_nome, sep=\"\\n\")\nprint(\"\\n\\n\")\n# Ordene os produtos por preco crescente (do menor para maior)\n# Gere produtos_ordenados_por_preco por deep copy (cópia profunda)\nprodutos_ordenados_por_preco = dc(novos_produtos)\nprint(\"Produtos Ordenados por preço\")\nprodutos_ordenados_por_preco = sorted(produtos_ordenados_por_nome, key=lambda d:d['preco'])",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "produtos_ordenados_por_nome",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "produtos_ordenados_por_nome = sorted(produtos_ordenados_por_nome, key=lambda d:d['nome'])\nprint(\"Produtos Ordenados por nome\")\nprint(*produtos_ordenados_por_nome, sep=\"\\n\")\nprint(\"\\n\\n\")\n# Ordene os produtos por preco crescente (do menor para maior)\n# Gere produtos_ordenados_por_preco por deep copy (cópia profunda)\nprodutos_ordenados_por_preco = dc(novos_produtos)\nprint(\"Produtos Ordenados por preço\")\nprodutos_ordenados_por_preco = sorted(produtos_ordenados_por_nome, key=lambda d:d['preco'])\nprint(*produtos_ordenados_por_preco, sep=\"\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "produtos_ordenados_por_preco",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "produtos_ordenados_por_preco = dc(novos_produtos)\nprint(\"Produtos Ordenados por preço\")\nprodutos_ordenados_por_preco = sorted(produtos_ordenados_por_nome, key=lambda d:d['preco'])\nprint(*produtos_ordenados_por_preco, sep=\"\\n\")\nprint(\"\\n\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "produtos_ordenados_por_preco",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "peekOfCode": "produtos_ordenados_por_preco = sorted(produtos_ordenados_por_nome, key=lambda d:d['preco'])\nprint(*produtos_ordenados_por_preco, sep=\"\\n\")\nprint(\"\\n\\n\")",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula160_desafio_aumentando_precos",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "peekOfCode": "def soma(x,y):\n    return x+y\ndef multiplica(x,y):\n    return x*y\ndef executa(funcao, x):\n    def closure(y):\n        return funcao(x,y)\n    return closure\nsoma_com_cinco = executa(soma, 5)\nmultiplica_por_dez = executa(multiplica, 10)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "documentation": {}
+    },
+    {
+        "label": "multiplica",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "peekOfCode": "def multiplica(x,y):\n    return x*y\ndef executa(funcao, x):\n    def closure(y):\n        return funcao(x,y)\n    return closure\nsoma_com_cinco = executa(soma, 5)\nmultiplica_por_dez = executa(multiplica, 10)\nprint(soma_com_cinco(10), multiplica_por_dez(10))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "documentation": {}
+    },
+    {
+        "label": "executa",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "peekOfCode": "def executa(funcao, x):\n    def closure(y):\n        return funcao(x,y)\n    return closure\nsoma_com_cinco = executa(soma, 5)\nmultiplica_por_dez = executa(multiplica, 10)\nprint(soma_com_cinco(10), multiplica_por_dez(10))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "documentation": {}
+    },
+    {
+        "label": "soma_com_cinco",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "peekOfCode": "soma_com_cinco = executa(soma, 5)\nmultiplica_por_dez = executa(multiplica, 10)\nprint(soma_com_cinco(10), multiplica_por_dez(10))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "documentation": {}
+    },
+    {
+        "label": "multiplica_por_dez",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "peekOfCode": "multiplica_por_dez = executa(multiplica, 10)\nprint(soma_com_cinco(10), multiplica_por_dez(10))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula162_desafio_adiando_exec_de_func",
+        "documentation": {}
+    },
+    {
+        "label": "decoradora",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "peekOfCode": "def decoradora(funcao):\n    def wrap(*args): #Função interna que atrasa a execução de outras funções\n        print(\"Antes de executar a função...\")\n        rodando_a_funcao = funcao(*args)\n        print(\"Depois de executar a função...\")\n        return rodando_a_funcao\n    return wrap\n@decoradora\ndef soma(*args):\n    soma_dos_valores = 0",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "peekOfCode": "def soma(*args):\n    soma_dos_valores = 0\n    for numero in args:\n        soma_dos_valores += numero\n    return soma_dos_valores\nsoma_de_dois_numeros = soma(5,5)\nprint(soma_de_dois_numeros)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "documentation": {}
+    },
+    {
+        "label": "soma_de_dois_numeros",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "peekOfCode": "soma_de_dois_numeros = soma(5,5)\nprint(soma_de_dois_numeros)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula165_funcao_decoradora",
+        "documentation": {}
+    },
+    {
+        "label": "parametros_do_decorador",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "peekOfCode": "def parametros_do_decorador(a=None, b=None, c=None):\n    def decorador(funcao):\n        def wrap(*args):\n            print(\"Antes de executar a função...\")\n            executando_a_funcao = funcao(*args, a, b, c)\n            print(\"Depois de executar a função\")\n            return executando_a_funcao\n        return wrap\n    return decorador\n@parametros_do_decorador(1,1,1)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "peekOfCode": "def soma(*args):\n    soma_dos_valores = 0\n    for numero in args:\n        soma_dos_valores += numero\n    return soma_dos_valores\nsoma_dos_valores = soma(5, 5)\nprint(soma_dos_valores)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "documentation": {}
+    },
+    {
+        "label": "soma_dos_valores",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "peekOfCode": "soma_dos_valores = soma(5, 5)\nprint(soma_dos_valores)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula167_decoradores_com_parametros",
+        "documentation": {}
+    },
+    {
+        "label": "cidades_capital",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "peekOfCode": "def cidades_capital(a,b):\n    if a > b:\n        return list(zip(a,b))\n    else:\n        return list(zip(b,a))\nCidades = ['BA', 'SP', 'MG', 'RJ']\nCapitais = ['Salvador', 'Ubatuba', 'Belo Horizonte']\nprint(cidades_capital(Capitais,Cidades))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "documentation": {}
+    },
+    {
+        "label": "Cidades",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "peekOfCode": "Cidades = ['BA', 'SP', 'MG', 'RJ']\nCapitais = ['Salvador', 'Ubatuba', 'Belo Horizonte']\nprint(cidades_capital(Capitais,Cidades))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "documentation": {}
+    },
+    {
+        "label": "Capitais",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "peekOfCode": "Capitais = ['Salvador', 'Ubatuba', 'Belo Horizonte']\nprint(cidades_capital(Capitais,Cidades))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula169_desafio_uniao_de_listas",
+        "documentation": {}
+    },
+    {
+        "label": "soma_de_listas",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "peekOfCode": "def soma_de_listas(lista1, lista2):\n    soma_das_listas = []\n    max = min(len(lista1), len(lista2))\n    for i in range(max):\n        soma_das_listas.append(lista1[i] + lista2[i])\n    return soma_das_listas\nvalores_a = [1, 2, 3, 4, 5, 6, 7]\nvalores_b = [1, 2, 3, 4]\nprint(soma_de_listas(valores_a,valores_b))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "documentation": {}
+    },
+    {
+        "label": "valores_a",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "peekOfCode": "valores_a = [1, 2, 3, 4, 5, 6, 7]\nvalores_b = [1, 2, 3, 4]\nprint(soma_de_listas(valores_a,valores_b))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "documentation": {}
+    },
+    {
+        "label": "valores_b",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "peekOfCode": "valores_b = [1, 2, 3, 4]\nprint(soma_de_listas(valores_a,valores_b))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula171_desafio_somando_duas_listas",
+        "documentation": {}
+    },
+    {
+        "label": "print_iteravel",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "peekOfCode": "def print_iteravel(lista):\n    print(*list(lista), sep='\\n')\npessoas = ['João','Maria','José','Luiz','Guilherme']\n#Lista de listas\ncamisas = [\n    ['preta','branca','azul'],\n    ['pp','p','m','g','gg'],\n    ['male','female','unisex'],\n]\nprint('Exemplo de uso do combinations (Grupos unicos, não repetindo itens)\\n')",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "peekOfCode": "pessoas = ['João','Maria','José','Luiz','Guilherme']\n#Lista de listas\ncamisas = [\n    ['preta','branca','azul'],\n    ['pp','p','m','g','gg'],\n    ['male','female','unisex'],\n]\nprint('Exemplo de uso do combinations (Grupos unicos, não repetindo itens)\\n')\nprint_iteravel(combinations(pessoas,2)) #(lista, tamanho do grupo)\nsleep(2.5)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "documentation": {}
+    },
+    {
+        "label": "camisas",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "peekOfCode": "camisas = [\n    ['preta','branca','azul'],\n    ['pp','p','m','g','gg'],\n    ['male','female','unisex'],\n]\nprint('Exemplo de uso do combinations (Grupos unicos, não repetindo itens)\\n')\nprint_iteravel(combinations(pessoas,2)) #(lista, tamanho do grupo)\nsleep(2.5)\nos.system('cls')\nprint('Exemplo de uso do permutations (Todas as possibilidades de combinações)\\n')",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula174_combinations_permutations_product",
+        "documentation": {}
+    },
+    {
+        "label": "print_iter_notas",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "peekOfCode": "def print_iter_notas(list): \n    for key, group in  list:\n        print(key)\n        for pupil in group:\n            print(pupil)\n#Lista de dados\nalunos = [\n    {'nome': 'Luiz', 'nota': 'A'},\n    {'nome': 'Letícia', 'nota': 'B'},\n    {'nome': 'Fabrício', 'nota': 'A'},",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "documentation": {}
+    },
+    {
+        "label": "ORDEM",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "peekOfCode": "ORDEM = lambda a: a['nota']\n#Forma pratica de mostrar os dados\ndef print_iter_notas(list): \n    for key, group in  list:\n        print(key)\n        for pupil in group:\n            print(pupil)\n#Lista de dados\nalunos = [\n    {'nome': 'Luiz', 'nota': 'A'},",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "documentation": {}
+    },
+    {
+        "label": "alunos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "peekOfCode": "alunos = [\n    {'nome': 'Luiz', 'nota': 'A'},\n    {'nome': 'Letícia', 'nota': 'B'},\n    {'nome': 'Fabrício', 'nota': 'A'},\n    {'nome': 'Rosemary', 'nota': 'C'},\n    {'nome': 'Joana', 'nota': 'D'},\n    {'nome': 'João', 'nota': 'A'},\n    {'nome': 'Eduardo', 'nota': 'B'},\n    {'nome': 'André', 'nota': 'A'},\n    {'nome': 'Anderson', 'nota': 'C'},",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "documentation": {}
+    },
+    {
+        "label": "alunos_ordenado_por_nota",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "peekOfCode": "alunos_ordenado_por_nota = sorted(alunos, key=ORDEM)\n#Criar grupos de alunos pela nota\ngrupos = groupby(alunos_ordenado_por_nota, key=ORDEM)\nprint_iter_notas(grupos)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "documentation": {}
+    },
+    {
+        "label": "grupos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "peekOfCode": "grupos = groupby(alunos_ordenado_por_nota, key=ORDEM)\nprint_iter_notas(grupos)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula175_groupby",
+        "documentation": {}
+    },
+    {
+        "label": "print_iteravel",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "peekOfCode": "def print_iteravel(lista):\n    print(*list(lista), sep='\\n')\ndef aumentar_porcentagem(valor, porcentagem):\n    return round(valor * porcentagem, 2)\ndef muda_preco_de_produtos(produto):\n    return {**produto,'preco': partial(aumentar_porcentagem,porcentagem=1.1)(produto['preco'])}\nlista = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "documentation": {}
+    },
+    {
+        "label": "aumentar_porcentagem",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "peekOfCode": "def aumentar_porcentagem(valor, porcentagem):\n    return round(valor * porcentagem, 2)\ndef muda_preco_de_produtos(produto):\n    return {**produto,'preco': partial(aumentar_porcentagem,porcentagem=1.1)(produto['preco'])}\nlista = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},\n    {'nome': 'Produto 2', 'preco': 105.87},\n    {'nome': 'Produto 4', 'preco': 69.90},",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "documentation": {}
+    },
+    {
+        "label": "muda_preco_de_produtos",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "peekOfCode": "def muda_preco_de_produtos(produto):\n    return {**produto,'preco': partial(aumentar_porcentagem,porcentagem=1.1)(produto['preco'])}\nlista = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},\n    {'nome': 'Produto 2', 'preco': 105.87},\n    {'nome': 'Produto 4', 'preco': 69.90},\n]\nnovos_produtos = list(map(muda_preco_de_produtos,lista))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "peekOfCode": "lista = [\n    {'nome': 'Produto 5', 'preco': 10.00},\n    {'nome': 'Produto 1', 'preco': 22.32},\n    {'nome': 'Produto 3', 'preco': 10.11},\n    {'nome': 'Produto 2', 'preco': 105.87},\n    {'nome': 'Produto 4', 'preco': 69.90},\n]\nnovos_produtos = list(map(muda_preco_de_produtos,lista))\nprint_iteravel(novos_produtos)\n#Mapping comm lambda",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "documentation": {}
+    },
+    {
+        "label": "novos_produtos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "peekOfCode": "novos_produtos = list(map(muda_preco_de_produtos,lista))\nprint_iteravel(novos_produtos)\n#Mapping comm lambda\nprint(list(map(lambda x: x * 2 ,)))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula176_map_function",
+        "documentation": {}
+    },
+    {
+        "label": "print_iter",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "peekOfCode": "def print_iter(lista):\n    print(*lista, sep='\\n')\nprodutos = [\n    {'nome':'produto1','preco':10.00},\n    {'nome':'produto2','preco':100.00},\n    {'nome':'produto3','preco':22.32},\n    {'nome':'produto4','preco':10.11},\n    {'nome':'produto5','preco':69.90}\n]\nnovo_produto = filter(lambda x: x['preco'] > 10, produtos)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "documentation": {}
+    },
+    {
+        "label": "produtos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "peekOfCode": "produtos = [\n    {'nome':'produto1','preco':10.00},\n    {'nome':'produto2','preco':100.00},\n    {'nome':'produto3','preco':22.32},\n    {'nome':'produto4','preco':10.11},\n    {'nome':'produto5','preco':69.90}\n]\nnovo_produto = filter(lambda x: x['preco'] > 10, produtos)\nprint_iter(novo_produto)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "documentation": {}
+    },
+    {
+        "label": "novo_produto",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "peekOfCode": "novo_produto = filter(lambda x: x['preco'] > 10, produtos)\nprint_iter(novo_produto)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula177_filters",
+        "documentation": {}
+    },
+    {
+        "label": "produtos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "peekOfCode": "produtos = [\n    {'nome':'produto1','preco':10.00},\n    {'nome':'produto2','preco':100.00},\n    {'nome':'produto3','preco':22.32},\n    {'nome':'produto4','preco':10.11},\n    {'nome':'produto5','preco':69.90}\n]\n#Finalmente entendi lambda || ao inves da lambda pode ser usado\n#def somando(acumulador,produto):\n#    return acumulador + produto",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "soma_dos_precos",
+        "kind": 5,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "peekOfCode": "soma_dos_precos = reduce(lambda acumulador,produto:acumulador + produto['preco'] ,produtos,0 )\nprint(soma_dos_precos)",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula179_reduce",
+        "documentation": {}
+    },
+    {
+        "label": "recursiva",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "peekOfCode": "def recursiva(inicio=0,fim=15):\n    if inicio >= fim:\n        return fim\n    inicio += 1\n    return recursiva(inicio,fim)\nprint(recursiva())\n#Exemplo pratico fatorial\ndef facto_func(num=1):\n    if num <= 1:\n        return 1",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "documentation": {}
+    },
+    {
+        "label": "facto_func",
+        "kind": 2,
+        "importPath": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "description": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "peekOfCode": "def facto_func(num=1):\n    if num <= 1:\n        return 1\n    return num * facto_func(num - 1)\nprint(facto_func(5))",
+        "detail": "Python-Projects.python-udemy.Sessão_2_Modulos_E_Funções.aula180_recursivas",
+        "documentation": {}
+    }
+]
