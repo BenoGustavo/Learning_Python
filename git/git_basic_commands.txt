@@ -1,3 +1,17 @@
+#Config global user and email
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
+#Show the global config
+
+git config user.name
+git config user.email
+
+#Delete global config
+
+git config –global –unset user.name
+git config –global –unset user.email
+
 #Clona um repositorio na maquina
 git clone url
 
