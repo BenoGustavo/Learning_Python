@@ -16,7 +16,6 @@ Ativando um ambiente virtual
 
 local da pasta\ pasta \ activate
 
-C:\Users\benof\learning_things_or_small_projects>
 
 -=-=-=-=-=-=-=-=-=
 

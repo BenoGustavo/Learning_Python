@@ -11,10 +11,26 @@ mydb = mysql.connector.connect(
 
 # CRUD HOSPITAL
 
-def create_hospital(nome, email, telefone):
+def create_hospital(nome, email, telefone,logradouro, cep, numero, bairro):
+    def create_endereco(logradouro, cep, numero, bairro):
+        
+        cursor = mydb.cursor()
+        sql = "INSERT INTO endereco (logradouro, cep, numero, bairro) VALUES (%s, %s, %s, %s)"
+        val = (logradouro, cep, numero, bairro)
+        cursor.execute(sql, val)
+        mydb.commit()
+        return cursor.lastrowid
+    
+    create_endereco(logradouro, cep, numero, bairro)
+
     cursor = mydb.cursor()
-    sql = "INSERT INTO hospital (nome, email, telefone) VALUES (%s, %s, %s)"
-    val = (nome, email,telefone)
+
+    sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1"
+    cursor.execute(sql)
+    id_endereco = cursor.fetchone()
+
+    sql = "INSERT INTO hospital (nome, email, telefone, id_endereco) VALUES (%s, %s, %s,%s)"
+    val = (nome, email,telefone,id_endereco[0],)
     cursor.execute(sql, val)
     mydb.commit()
     return cursor.lastrowid
@@ -86,4 +102,4 @@ def delete_endereco(id_endereco):
 #Utilizando
 
 
-create_hospital("exemplo de hospital","hospital@gmail.com","2345678")
+create_hospital("Hospital Ex","Exemplo@gmail.com","32999999","Ex logradouro","222222","1234","Ex Bairro")
