@@ -12,6 +12,7 @@ mydb = mysql.connector.connect(
 # CRUD HOSPITAL
 
 def create_hospital(nome, email, telefone,logradouro, cep, numero, bairro):
+    
     def create_endereco(logradouro, cep, numero, bairro):
         
         cursor = mydb.cursor()
@@ -41,16 +42,37 @@ def read_hospital(id_hospital):
     val = (id_hospital,)
     cursor.execute(sql, val)
     result = cursor.fetchone()
+
+    sql = "SELECT * FROM endereco WHERE id_endereco = %s"
+    val = (result[0],)
+    cursor.execute(sql, val)
+    endereco = cursor.fetchone()
+    
     if result is None:
         return None
-    return {'id': result[0], 'name': result[1], 'telefone': result[2], 'email': result[3]}
+    return {'id': result[0], 'name': result[1], 'telefone': result[2], 'email': result[3],'logradouro':endereco[1],'cep':endereco[2],'numero':endereco[3],'bairro':endereco[4]}
 
-def update_hospital(id_hospital, nome, email, telefone):
+def update_hospital(id_hospital,nome, email, telefone,logradouro, cep, numero, bairro):
     cursor = mydb.cursor()
-    sql = "UPDATE hospital SET nome = %s, email = %s, telefone = %i WHERE id = %s"
+    sql = "UPDATE hospital SET nome = %s, email = %s, telefone = %s WHERE id = %s"
     val = (nome, email, telefone ,id_hospital)
     cursor.execute(sql, val)
     mydb.commit()
+
+    sql = "SELECT * FROM hospital WHERE id_hospital = %s"
+    id = (id_hospital,)
+    cursor.execute(sql, id[4])
+    endereco = cursor.fetchone()
+
+    def update_endereco(logradouro, cep, numero, bairro,endereco):
+        sql = "UPDATE endereco SET logradouro = %s, cep = %s, numero = %s, bairro = %s WHERE id_endereco = %s"
+        val = (logradouro, cep, numero, bairro,endereco)
+        cursor.execute(sql, val)
+        mydb.commit()
+        return cursor.rowcount
+    
+    update_endereco(logradouro, cep, numero, bairro,endereco)
+
     return cursor.rowcount
 
 def delete_hospital(id_hospital):
@@ -101,5 +123,6 @@ def delete_endereco(id_endereco):
 
 #Utilizando
 
-
-create_hospital("Hospital Ex","Exemplo@gmail.com","32999999","Ex logradouro","222222","1234","Ex Bairro")
+print(read_hospital(1))
+update_hospital("1","Jorge","jorge.com","1234","logradouro_poggers","1234","999","agro_é_tec")
+print(read_hospital(1))
