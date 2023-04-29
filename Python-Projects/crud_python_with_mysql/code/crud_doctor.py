@@ -109,3 +109,5 @@ def delete_hospital(id_hospital):
 
 
 #Utilizando
+
+update_hospital("5","nome","string","123","string","123","123","string")
