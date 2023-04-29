@@ -1,3 +1,5 @@
+#Endereco sendo criado duplicado
+
 import mysql.connector
 
 #Conectando ao schema
