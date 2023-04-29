@@ -12,7 +12,7 @@ mydb = mysql.connector.connect(
 # CRUD HOSPITAL
 
 #Criando hospital
-def create_hospital(nome, email, telefone,logradouro, cep, numero, bairro):
+def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero, bairro):
     
     #Criando endereco para o hospital
     def create_endereco(logradouro, cep, numero, bairro):
@@ -32,41 +32,41 @@ def create_hospital(nome, email, telefone,logradouro, cep, numero, bairro):
     cursor.execute(sql)
     id_endereco = cursor.fetchone()
 
-    sql = "INSERT INTO hospital (nome, email, telefone, id_endereco) VALUES (%s, %s, %s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
-    val = (nome, email,telefone,id_endereco[0],)
+    sql = "INSERT INTO funcionario (CPF, nome, email, telefone ,funcao, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
+    val = (CPF,nome, email,telefone,funcao,id_endereco[0],)
     cursor.execute(sql, val)
     mydb.commit()
     return cursor.lastrowid
 
 
-#Lendo informacoes da tabela hospital
-def read_hospital(id_hospital):
+#Lendo informacoes da tabela funcionario
+def read_funcionario(id_funcionario):
     cursor = mydb.cursor()
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s" #Comando mysql || pegando informacoes do hospital com ID
-    val = (id_hospital,)
+    sql = "SELECT * FROM funcionario WHERE id_funcionario = %s" #Comando mysql || pegando informacoes do hospital com ID
+    val = (id_funcionario,)
     cursor.execute(sql, val)
     result = cursor.fetchone()
 
     sql = "SELECT * FROM endereco WHERE id_endereco = %s" #Comando mysql || pegando informacoes do endereco hospital
-    val = (result[4],)
+    val = (result[6],)
     cursor.execute(sql, val)
     endereco = cursor.fetchone()
     
     #Retornando informacoes
     if result is None or endereco is None:
         return None
-    return {'id': result[0], 'name': result[1], 'telefone': result[2], 'email': result[3],'logradouro':endereco[1],'cep':endereco[2],'numero':endereco[3],'bairro':endereco[4]}
+    return {'id': result[0], 'CPF': result[1], 'nome': result[2], 'email': result[3],"telefone":result[4],"funcao":result[5],'logradouro':endereco[1],'cep':endereco[2],'numero':endereco[3],'bairro':endereco[4]}
 
-#Atuailizando informacoes hospital
-def update_hospital(id_hospital,nome, email, telefone,logradouro, cep, numero, bairro):
+#Atuailizando informacoes funcionario
+def update_funcionario(id_funcionario,CPF, nome,email, telefone,logradouro, funcao ,cep, numero, bairro):
     cursor = mydb.cursor()
-    sql = "UPDATE hospital SET nome = %s, email = %s, telefone = %s WHERE id_hospital = %s" #Comando mysql || atulizando dados
-    val = (nome, email, telefone ,id_hospital)
+    sql = "UPDATE funcionario SET CPF = %s, nome = %s, email = %s, telefone = %s, funcao = %s WHERE id_funcionario = %s" #Comando mysql || atulizando dados
+    val = (CPF,nome, email,telefone,funcao,id_funcionario)
     cursor.execute(sql, val)
     mydb.commit()
 
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s" #Selecionando ID endereco
-    id = (id_hospital,)
+    sql = "SELECT * FROM funcionario WHERE id_endereco = %s" #Selecionando ID endereco
+    id = (id_funcionario,)
     cursor.execute(sql, id)
     endereco = cursor.fetchone() #Armazenando ID endereco
 
@@ -80,26 +80,26 @@ def update_hospital(id_hospital,nome, email, telefone,logradouro, cep, numero, b
         mydb.commit()
         return cursor.rowcount
     
-    update_endereco(logradouro, cep, numero, bairro,endereco[4]) #Funcao que atualiza o endereco
+    update_endereco(logradouro, cep, numero, bairro,endereco[6]) #Funcao que atualiza o endereco
 
     return cursor.rowcount
 
 #Deletando dados hospital
-def delete_hospital(id_hospital):
+def delete_funcionario(id_funcionario):
     
     cursor = mydb.cursor()
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s" #Selecionando ID endereco
-    id = (id_hospital,)
+    sql = "SELECT * FROM funcionario WHERE id_funcionario = %s" #Selecionando ID endereco
+    id = (id_funcionario,)
     cursor.execute(sql, id)
     id_endereco = cursor.fetchone() #Armazenando ID endereco
 
     sql = "DELETE FROM endereco WHERE id_endereco = %s" #Deletando endereco || RECEBENDO ERRO POIS N POSSO DELETAR CHAVE ESTRANGEIRA
-    val = (id_endereco[4],)
+    val = (id_endereco[6],)
     cursor.execute(sql, val)
     
     cursor = mydb.cursor()
-    sql = "DELETE FROM hospital WHERE id_hospital = %s" #Deletando informacoes do hospital
-    val = (id_hospital,)
+    sql = "DELETE FROM funcionario WHERE id_funcionario = %s" #Deletando informacoes do hospital
+    val = (id_funcionario,)
     cursor.execute(sql, val)
     mydb.commit()
     
@@ -110,4 +110,13 @@ def delete_hospital(id_hospital):
 
 #Utilizando
 
-update_hospital("5","nome","string","123","string","123","123","string")
+#Não funciona
+
+#delete_funcionario(2) Não consigo deletar chave estrangeira
+
+#Funcionando
+
+
+#update_funcionario("1","12345","skibaripapa","skibaripapa@gmail.com","12340987","logradouro","pensar","987","678","doi")
+#print(read_funcionario(1))
+#create_funcionario("1234","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")

@@ -110,4 +110,5 @@ def delete_hospital(id_hospital):
 
 #Utilizando
 
-update_hospital("5","nome","string","123","string","123","123","string")
+create_hospital("TESTE","TESTE@GMAIL.COM","321","LOGRADOURO","768","876789","BAIRRO")
+#update_hospital("5","nome","string","123","string","123","123","string")
