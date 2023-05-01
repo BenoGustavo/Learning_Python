@@ -52,6 +52,8 @@ def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero
             cursor.execute(sql, val)
             mydb.commit()
 
+            raise "Falha ao cadastrar o funcionario" #Inserir um raise aqui
+
     finally:
         return cursor.lastrowid
 
@@ -135,4 +137,4 @@ def delete_funcionario(id_funcionario):
 
 #update_funcionario("1","12345","skibaripapa","skibaripapa@gmail.com","12340987","logradouro","pensar","987","678","doi")
 #print(read_funcionario(1))
-create_funcionario("14758889961","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")
+#create_funcionario("14758889961","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")
