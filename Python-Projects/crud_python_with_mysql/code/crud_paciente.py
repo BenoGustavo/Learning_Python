@@ -109,5 +109,6 @@ def delete_paciente(id_paciente):
 
 #Funcionando
 
-create_paciente("123","nome","nome@gmail.com","3245","logra a douro","rinite","666666","987","barro")
-#rprint(read_paciente("1"))
+#update_paciente("1","55555","teste update","testeupdate@gmail.com","987789","teste update","teste update","56798761","456654","teste update")
+#create_paciente("123","nome","nome@gmail.com","3245","logra a douro","rinite","666666","987","barro")
+#print(read_paciente("1"))
