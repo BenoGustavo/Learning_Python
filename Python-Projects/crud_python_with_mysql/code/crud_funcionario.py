@@ -34,11 +34,26 @@ def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero
     cursor.execute(sql)
     id_endereco = cursor.fetchone()
 
-    sql = "INSERT INTO funcionario (CPF, nome, email, telefone ,funcao, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
-    val = (CPF,nome, email,telefone,funcao,id_endereco[0],)
-    cursor.execute(sql, val)
-    mydb.commit()
-    return cursor.lastrowid
+    #Caso não consiga criar funcionario, o endereco criado anteriormente é deletado e então finalizado a funcao
+
+    try:
+        sql = "INSERT INTO funcionario (CPF, nome, email, telefone ,funcao, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
+        val = (CPF,nome, email,telefone,funcao,id_endereco[0],)
+        cursor.execute(sql, val)
+        mydb.commit()
+
+    except:
+            sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1" #Selecionando informaçoes
+            cursor.execute(sql)
+            result = cursor.fetchone()
+
+            sql = "DELETE FROM endereco WHERE id_endereco = %s"
+            val = (result[0],) # o primeiro elemento de 'result' é o ID da última linha
+            cursor.execute(sql, val)
+            mydb.commit()
+
+    finally:
+        return cursor.lastrowid
 
 
 #Lendo informacoes da tabela funcionario
@@ -99,7 +114,6 @@ def delete_funcionario(id_funcionario):
     val = (id_endereco[6],)
     cursor.execute(sql, val)
     
-    cursor = mydb.cursor()
     sql = "DELETE FROM funcionario WHERE id_funcionario = %s" #Deletando informacoes do hospital
     val = (id_funcionario,)
     cursor.execute(sql, val)
@@ -121,4 +135,4 @@ def delete_funcionario(id_funcionario):
 
 #update_funcionario("1","12345","skibaripapa","skibaripapa@gmail.com","12340987","logradouro","pensar","987","678","doi")
 #print(read_funcionario(1))
-#create_funcionario("1234","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")
+create_funcionario("14758889961","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")

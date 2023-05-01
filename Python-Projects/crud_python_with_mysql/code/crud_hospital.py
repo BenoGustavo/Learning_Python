@@ -32,11 +32,26 @@ def create_hospital(nome, email, telefone,logradouro, cep, numero, bairro):
     cursor.execute(sql)
     id_endereco = cursor.fetchone()
 
-    sql = "INSERT INTO hospital (nome, email, telefone, id_endereco) VALUES (%s, %s, %s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
-    val = (nome, email,telefone,id_endereco[0],)
-    cursor.execute(sql, val)
-    mydb.commit()
-    return cursor.lastrowid
+    #Tenta criar o hospital, caso não consiga deleta o endereco criado para ele e então finaliza a funcao
+
+    try:
+        sql = "INSERT INTO hospital (nome, email, telefone, id_endereco) VALUES (%s, %s, %s,%s)" #Criando o hospital, junto com o ID do respectivo endereco
+        val = (nome, email,telefone,id_endereco[0],)
+        cursor.execute(sql, val)
+        mydb.commit()
+
+    except:
+            sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1" #Selecionando informaçoes
+            cursor.execute(sql)
+            result = cursor.fetchone()
+
+            sql = "DELETE FROM endereco WHERE id_endereco = %s"
+            val = (result[0],) # o primeiro elemento de 'result' é o ID da última linha
+            cursor.execute(sql, val)
+            mydb.commit()
+
+    finally:
+        return cursor.lastrowid
 
 
 #Lendo informacoes da tabela hospital

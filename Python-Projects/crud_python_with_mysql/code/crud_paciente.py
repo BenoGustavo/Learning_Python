@@ -32,11 +32,25 @@ def create_paciente(CPF, nome,email, telefone,logradouro, doenca ,cep, numero, b
     cursor.execute(sql)
     id_endereco = cursor.fetchone()
 
-    sql = "INSERT INTO paciente (CPF, nome, email, telefone ,doenca, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)" #Criando o paciente, junto com o ID do respectivo endereco
-    val = (CPF,nome, email,telefone,doenca,id_endereco[0],)
-    cursor.execute(sql, val)
-    mydb.commit()
-    return cursor.lastrowid
+    #Tenta criar o paciente, se não conseguir deleta seu endereco e então finaliza a funcao
+
+    try:
+        sql = "INSERT INTO paciente (CPF, nome, email, telefone ,doenca, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)" #Criando o paciente, junto com o ID do respectivo endereco
+        val = (CPF,nome, email,telefone,doenca,id_endereco[0],)
+        cursor.execute(sql, val)
+        mydb.commit()
+    except:
+            sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1" #Selecionando informaçoes
+            cursor.execute(sql)
+            result = cursor.fetchone()
+
+            sql = "DELETE FROM endereco WHERE id_endereco = %s"
+            val = (result[0],) # o primeiro elemento de 'result' é o ID da última linha
+            cursor.execute(sql, val)
+            mydb.commit()
+
+    finally:
+        return cursor.lastrowid
 
 
 #Lendo informacoes da tabela paciente
