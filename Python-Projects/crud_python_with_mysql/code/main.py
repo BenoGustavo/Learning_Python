@@ -46,7 +46,7 @@ while True:
                     print("\nFuncionario cadastrado com sucesso...")
                     sleep(1)
                     continue
-                except:
+                except Exception as error:
                     print("O cadastro falhou...")
                     sleep(1)
                     continue

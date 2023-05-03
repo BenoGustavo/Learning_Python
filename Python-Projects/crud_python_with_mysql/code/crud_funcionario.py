@@ -42,7 +42,8 @@ def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero
         cursor.execute(sql, val)
         mydb.commit()
 
-    except:
+    except Exception as error:
+            
             sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1" #Selecionando informaçoes
             cursor.execute(sql)
             result = cursor.fetchone()
@@ -52,7 +53,8 @@ def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero
             cursor.execute(sql, val)
             mydb.commit()
 
-            raise "Falha ao cadastrar o funcionario" #Inserir um raise aqui
+            print("Ocorreu um erro:", error)
+            input("\n...")
 
     finally:
         return cursor.lastrowid
@@ -105,23 +107,22 @@ def update_funcionario(id_funcionario,CPF, nome,email, telefone,logradouro, func
 
 #Deletando dados hospital
 def delete_funcionario(id_funcionario):
-    
+
     cursor = mydb.cursor()
     sql = "SELECT * FROM funcionario WHERE id_funcionario = %s" #Selecionando ID endereco
     id = (id_funcionario,)
     cursor.execute(sql, id)
     id_endereco = cursor.fetchone() #Armazenando ID endereco
 
-    sql = "DELETE FROM endereco WHERE id_endereco = %s" #Deletando endereco || RECEBENDO ERRO POIS N POSSO DELETAR CHAVE ESTRANGEIRA
-    val = (id_endereco[6],)
-    cursor.execute(sql, val)
-    
-    sql = "DELETE FROM funcionario WHERE id_funcionario = %s" #Deletando informacoes do hospital
+    sql = "DELETE FROM funcionario WHERE id_funcionario = %s" #Deletando informacoes do funcionario
     val = (id_funcionario,)
     cursor.execute(sql, val)
     mydb.commit()
-    
 
+    sql = "DELETE FROM endereco WHERE id_endereco = %s" #Deletando endereco
+    val = (id_endereco[6],)
+    cursor.execute(sql, val)
+    mydb.commit()
     
     return cursor.rowcount
 
@@ -137,4 +138,5 @@ def delete_funcionario(id_funcionario):
 
 #update_funcionario("1","12345","skibaripapa","skibaripapa@gmail.com","12340987","logradouro","pensar","987","678","doi")
 #print(read_funcionario(1))
-#create_funcionario("14758889961","gustavo","gustavo.gorges@faculdadecesusc.edu.br","32695585","rEvaristo_Guilherme_Dos_santos","atendlente","12344321","123","vargem")
+#create_funcionario("147","Gustavo Gorges","gustavo.gorges@faculdadecesusc.edu.br","483","rua Evaristo Guilherme Dos santos","atendlente","123","1234","vargem de fora")
+#delete_funcionario("5")
