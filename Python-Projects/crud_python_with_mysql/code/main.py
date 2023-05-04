@@ -1,11 +1,17 @@
 import mysql.connector
 
-from crud_funcionario import create_funcionario,read_funcionario,update_funcionario,delete_funcionario
+from crud_funcionario import create_funcionario,read_funcionario,update_funcionario,delete_funcionario, show_all_id_from_table, show_all_name_from_table
 
 from os import system
 from time import sleep
 
 while True:
+    name_funcionario = show_all_name_from_table("Funcionario")
+    id_funcionario = show_all_id_from_table("Funcionario")
+
+    dados_funcionario = zip(id_funcionario,name_funcionario)
+
+
     system("cls") #Limpando o terminal
 
     print("Sistema de prontuarios\n")
@@ -14,7 +20,7 @@ while True:
     print("(2) - Paciente")
     print("(3) - Hospital")
     print("(4) - Clinica")
-    option = int(input("(5) - Sair"))
+    option = int(input("(5) - Sair\n"))
 
     if option == 1:
         system("cls") #Limpando o terminal
@@ -22,8 +28,8 @@ while True:
         print("(1) - Cadastrar funcionario")
         print("(2) - Ler funcionario")
         print("(3) - Atualizar funcionario")
-        print("(4) - Deletar funcionario [Não funciona]")
-        option_interno = int(input("(5) - Retornar"))
+        print("(4) - Deletar funcionario ")
+        option_interno = int(input("(5) - Retornar\n"))
 
         if option_interno == 1: #Cadastrar funcionario
 
@@ -44,26 +50,44 @@ while True:
                     create_funcionario(cpf,nome,email,telefone,logradouro,funcao,cep,numero_casa,bairro)
 
                     print("\nFuncionario cadastrado com sucesso...")
-                    sleep(1)
+                    sleep(3)
                     continue
+
                 except Exception as error:
                     print("O cadastro falhou...")
+                    print(error)
                     sleep(1)
                     continue
+
             if definitivo.lower() == 'n':
                 continue
 
-        if option_interno == 2:
+        if option_interno == 2: #Ler funcionario
             system("cls") #Limpando o terminal
+
+            for dado in dados_funcionario:
+                print(str(dado).replace("(","").replace(")","").replace(",",""))
+            print("")
+
             id_funcionario = input("Insira o ID do funcionario: ")
 
-            print(read_funcionario(id_funcionario))
+            try:
+                print(read_funcionario(id_funcionario))
+            
+            except TypeError:
+                print("\nID não encontrada retornando...")
+                sleep(1.5)
+                continue
 
             press = input("\nAperte qualquer tecla para voltar...")
             continue
 
         if option_interno == 3:
             system("cls") #Limpando o terminal
+
+            for dado in dados_funcionario:
+                print(str(dado).replace("(","").replace(")","").replace(",",""))
+            print("")
 
             id_funcionario = input("ID do funcionario: ")
             cpf = input("CPF funcionario: ")
@@ -78,8 +102,29 @@ while True:
             
             update_funcionario(id_funcionario,cpf,nome,email,telefone,logradouro,funcao,cep,numero,bairro)
 
+            print("\nFuncionario atualizado com sucesso...")
+            sleep(1)
+            continue
+
         if option_interno == 4:
             system("cls") #Limpando o terminal
+
+            for dado in dados_funcionario:
+                print(str(dado).replace("(","").replace(")","").replace(",",""))
+            print("")
+            
+            id_funcionario = input("Insira o ID do funcionario: ")
+            
+            try:
+                delete_funcionario(id_funcionario)
+                print("Funcionario deletado com sucesso...")
+                sleep(1.5)
+                continue
+            except TypeError:
+                
+                print("Falha ao deletar o usuario")
+                sleep(2)
+                continue
 
         else:
             print("Opção desconhecida...")
@@ -132,6 +177,9 @@ while True:
 
         if option_interno == 4:
             pass
+
+        if option_interno == 5: #Retornar
+            continue
 
         else:
             print("Opção desconhecida...")

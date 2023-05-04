@@ -14,6 +14,20 @@ mydb = mysql.connector.connect(
 # CRUD HOSPITAL
 
 #Criando hospital
+def show_all_id_from_table(table_name):
+    cursor = mydb.cursor()
+    
+    cursor.execute(f"SELECT id_{table_name} FROM {table_name}")
+    result = cursor.fetchall()
+    return result
+
+def show_all_name_from_table(table_name):
+    cursor = mydb.cursor()
+    
+    cursor.execute(f"SELECT nome FROM {table_name}")
+    result = cursor.fetchall()
+    return result
+
 def create_funcionario(CPF, nome,email, telefone,logradouro, funcao ,cep, numero, bairro):
     
     #Criando endereco para o hospital
@@ -138,5 +152,5 @@ def delete_funcionario(id_funcionario):
 
 #update_funcionario("1","12345","skibaripapa","skibaripapa@gmail.com","12340987","logradouro","pensar","987","678","doi")
 #print(read_funcionario(1))
-#create_funcionario("147","Gustavo Gorges","gustavo.gorges@faculdadecesusc.edu.br","483","rua Evaristo Guilherme Dos santos","atendlente","123","1234","vargem de fora")
+#create_funcionario("349.558.899-61","Duda","gustavo.gorges@faculdadecesusc.edu.br","48 32695585","rua Evaristo Guilherme Dos santos","Desenvolvedor","50000800","1234","vargem de fora")
 #delete_funcionario("5")
