@@ -29,3 +29,6 @@ git commit -m "comentario do commit"
 
 #Definitivamente faz o upload para o git
 git push
+
+#Renomear um arquivo
+$ git mv OLD-FILENAME NEW-FILENAME
