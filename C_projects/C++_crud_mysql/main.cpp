@@ -3,12 +3,14 @@
 #include <string>
 #include <sstream>
 
+/*
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_connection.h"
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_driver.h"
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\driver.h"
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\exception.h"
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\resultset.h"
 #include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\statement.h"
+*/
 
 /*
 #include "C_projects/C++_crud_mysql/Connector C++ 8.0/include/jdbc/mysql_connection.h"
@@ -19,20 +21,19 @@
 #include "C_projects/C++_crud_mysql/Connector C++ 8.0/include/jdbc/cppconn/statement.h"
 */
 
-/*
+
 #include <mysql_connection.h>
 #include <mysql_driver.h>
 #include <cppconn/driver.h>
 #include <cppconn/exception.h>
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>
-*/
 
 using namespace std;
 
 //Criando funcionario
 void create_funcionario(sql::Connection* con, string cpf, string nome, string email, string telefone, string funcao, string logradouro, string cep, string numero, string bairro) {  
-    
+
     //Criando endereço para o funcionario
     try{
 
