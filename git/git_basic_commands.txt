@@ -32,3 +32,11 @@ git push
 
 #Renomear um arquivo
 $ git mv OLD-FILENAME NEW-FILENAME
+
+#Trocar de branch
+$ git checkout
+
+#Criar uma branch
+$ git checkout -b "Nome da branch"
+
+#Push
