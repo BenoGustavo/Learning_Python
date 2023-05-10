@@ -2,15 +2,16 @@
 #include <cstdlib>
 #include <string>
 #include <sstream>
+#include <cstdint>
+#include <stdint.h>
 
-/*
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_connection.h"
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_driver.h"
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\driver.h"
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\exception.h"
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\resultset.h"
-#include "c:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\statement.h"
-*/
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_connection.h"
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\mysql_driver.h"
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\driver.h"
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\exception.h"
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\resultset.h"
+#include "C:\Program Files\MySQL\Connector C++ 8.0\include\jdbc\cppconn\statement.h"
+
 
 /*
 #include "C_projects/C++_crud_mysql/Connector C++ 8.0/include/jdbc/mysql_connection.h"
@@ -21,13 +22,15 @@
 #include "C_projects/C++_crud_mysql/Connector C++ 8.0/include/jdbc/cppconn/statement.h"
 */
 
-
+/*
 #include <mysql_connection.h>
 #include <mysql_driver.h>
 #include <cppconn/driver.h>
 #include <cppconn/exception.h>
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>
+*/
+
 
 using namespace std;
 
@@ -75,4 +78,33 @@ void create_funcionario(sql::Connection* con, string cpf, string nome, string em
     } catch(sql::SQLException& sqlerror){
         //cout << "SQL Exception: " << sqlerror.what() << endl; //Status
         }
+}
+
+int main(){
+	try {
+        sql::Driver* driver;
+        sql::Connection* con;
+        
+        //string cpf; string nome; string email; string telefone; string funcao; string logradouro; string cep; string numero; string bairro;
+
+        // create a MySQL driver instance
+        driver = get_driver_instance();
+
+        // create a MySQL connection instance
+        con = driver->connect("tcp://localhost:3306", "root", "root");
+
+        // specify the MySQL schema to use
+        con->setSchema("hospital_v2");
+
+        create_funcionario(con, "147.588.899-61","Gustavo Gorges","gustavo.gorges@faculdadecesusc.edu.br","4800000000","Dev","Rua churusbango","98765-78","130","Vargem grande");
+        
+		delete con;
+		
+		cout << "Hello, world" << endl;
+		
+        }catch (sql::SQLException& e) {
+        cout << "SQL Exception: " << e.what() << endl;
+    }
+
+    return 0;
 }

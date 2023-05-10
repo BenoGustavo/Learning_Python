@@ -1,5 +1,5 @@
 /*4 - Algoritmo 3 Menores
-Faça um algoritmo que leia 3 números inteiros e imprima o menor deles.
+Faï¿½a um algoritmo que leia 3 nï¿½meros inteiros e imprima o menor deles.
 */
 
 #include<conio.h>  
