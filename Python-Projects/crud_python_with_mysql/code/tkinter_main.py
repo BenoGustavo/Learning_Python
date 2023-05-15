@@ -78,10 +78,8 @@ def funcionario_id_read():
     voltar.pack(side="bottom",pady=10)
 
 def on_click_creating_funcionario():
-    def endereco_table():
-        def on_click_create_funcionario():
-            #Nao consegue puxar infroma'cao pois a info nao existe
-
+    def on_click_create_funcionario():
+        try:
             cpf_value = cpf_entry.get()
             nome_value = nome_entry.get()
             email_value = email.get()
@@ -92,55 +90,24 @@ def on_click_creating_funcionario():
             numero_casa_value = numero_casa_entry.get()
             bairro_value = bairro_entry.get()
 
-            print(cpf_value,nome_value,email_value,telefone_value,logradouro_value,funcao_value,cep_value,numero_casa_value,bairro_value)
+            create_funcionario(cpf_value,nome_value,email_value,telefone_value,logradouro_value,funcao_value,cep_value,numero_casa_value,bairro_value)
 
-            create_funcionario(cpf_value,nome_value,email_value,telefone_value,logradouro_value,funcao_value,cep_value,numero_casa_value,bairro_value)    
-    
-        clear_window(window)
+            funcionario_created = tk.Label(window,text=f"Funcionario {nome_value.capitalize()} criado com sucesso")
+            funcionario_created.config(fg="red")
+            funcionario_created.pack(side="top")
+            
+        except Exception as error:
+            print(error)
+            funcionario_not_created = tk.Label(window,text="Error ao criar o usuario")
+            funcionario_not_created.config(fg="red")
+            funcionario_not_created.pack(side="top")
 
-        funcionario_create_tittle_label =  tk.Label(window,text="Insert the endereco from the new funcionario")
-        funcionario_create_tittle_label.config(justify="center")
-        funcionario_create_tittle_label.pack(pady=20,side="top")
 
-        create_funcionario_tittle = tk.Label(window,text="Insert your logradouro",width=25)
-        create_funcionario_tittle.config(relief="ridge")
-        create_funcionario_tittle.pack(pady=1,side="top")
-
-        logradouro_entry = tk.Entry(window,width=30)
-        logradouro_entry.pack(pady=10,side="top")
-
-        create_funcionario_tittle = tk.Label(window,text="Insert your cep",width=25)
-        create_funcionario_tittle.config(relief="ridge")
-        create_funcionario_tittle.pack(pady=1,side="top")
-
-        cep_entry = tk.Entry(window,width=30)
-        cep_entry.pack(pady=10,side="top")
-
-        create_funcionario_tittle = tk.Label(window,text="Insert the number of ur house",width=25)
-        create_funcionario_tittle.config(relief="ridge")
-        create_funcionario_tittle.pack(pady=1,side="top")
-
-        numero_casa_entry = tk.Entry(window,width=30)
-        numero_casa_entry.pack(pady=10,side="top")
-
-        create_funcionario_tittle = tk.Label(window,text="Insert your bairro",width=25)
-        create_funcionario_tittle.config(relief="ridge")
-        create_funcionario_tittle.pack(pady=1,side="top")
-
-        bairro_entry = tk.Entry(window,width=30)
-        bairro_entry.pack(pady=10,side="top")
-
-        endereco_create_tittle_label =  tk.Button(window,text="Create funcionario",width=25, command=on_click_create_funcionario)
-        endereco_create_tittle_label.config(justify="center")
-        endereco_create_tittle_label.pack(pady=30,side="top")
-
-        voltar = tk.Button(window,text="Return",width=25, command=on_click_creating_funcionario)
-        voltar.pack(side="bottom",pady=10)
-
+   
     clear_window(window)
 
     funcionario_create_tittle_label =  tk.Label(window,text="Insert the information from the new funcionario")
-    funcionario_create_tittle_label.config(justify="center")
+    funcionario_create_tittle_label.config(relief="sunken",justify="center")
     funcionario_create_tittle_label.pack(pady=20,side="top")
 
     create_funcionario_tittle = tk.Label(window,text="Insert your CPF",width=25)
@@ -178,9 +145,41 @@ def on_click_creating_funcionario():
     funcao = tk.Entry(window,width=30)
     funcao.pack(pady=10,side="top")
 
-    endereco_create_complete_label =  tk.Button(window,text="Insert a endereco",width=25, command=endereco_table)
-    endereco_create_complete_label.config(justify="center")
-    endereco_create_complete_label.pack(pady=30,side="top")
+    funcionario_create_tittle_label =  tk.Label(window,text="Insert the endereco from the new funcionario")
+    funcionario_create_tittle_label.config(relief="sunken",justify="center")
+    funcionario_create_tittle_label.pack(pady=20,side="top")
+
+    create_funcionario_tittle = tk.Label(window,text="Insert your logradouro",width=25)
+    create_funcionario_tittle.config(relief="ridge")
+    create_funcionario_tittle.pack(pady=1,side="top")
+
+    logradouro_entry = tk.Entry(window,width=30)
+    logradouro_entry.pack(pady=10,side="top")
+
+    create_funcionario_tittle = tk.Label(window,text="Insert your cep",width=25)
+    create_funcionario_tittle.config(relief="ridge")
+    create_funcionario_tittle.pack(pady=1,side="top")
+
+    cep_entry = tk.Entry(window,width=30)
+    cep_entry.pack(pady=10,side="top")
+
+    create_funcionario_tittle = tk.Label(window,text="Insert the number of ur house",width=25)
+    create_funcionario_tittle.config(relief="ridge")
+    create_funcionario_tittle.pack(pady=1,side="top")
+
+    numero_casa_entry = tk.Entry(window,width=30)
+    numero_casa_entry.pack(pady=10,side="top")
+
+    create_funcionario_tittle = tk.Label(window,text="Insert your bairro",width=25)
+    create_funcionario_tittle.config(relief="ridge")
+    create_funcionario_tittle.pack(pady=1,side="top")
+
+    bairro_entry = tk.Entry(window,width=30)
+    bairro_entry.pack(pady=10,side="top")
+
+    endereco_create_tittle_label =  tk.Button(window,text="Create funcionario",width=25, command=on_click_create_funcionario)
+    endereco_create_tittle_label.config(justify="center")
+    endereco_create_tittle_label.pack(pady=30,side="top")
 
     voltar = tk.Button(window,text="Return",width=25, command=funcionario_table)
     voltar.pack(side="bottom",pady=10)
@@ -218,7 +217,7 @@ def funcionario_table():
 window = tk.Tk()
 window.config(background="lightblue")
 window.title("MySQL database crud for an hospital")
-window.geometry("400x500")
+window.geometry("500x850")
 #
 
 #Building the main menu
