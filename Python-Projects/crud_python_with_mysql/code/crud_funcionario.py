@@ -93,8 +93,9 @@ def read_funcionario(id_funcionario):
     return {'id': result[0], 'CPF': result[1], 'nome': result[2], 'email': result[3],"telefone":result[4],"funcao":result[5],'logradouro':endereco[1],'cep':endereco[2],'numero':endereco[3],'bairro':endereco[4]}
 
 #Atuailizando informacoes funcionario
-def update_funcionario(id_funcionario,CPF, nome,email, telefone,logradouro, funcao ,cep, numero, bairro):
+def update_funcionario(id_funcionario,CPF = None, nome = None,email = None,telefone = None,logradouro = None, funcao = None,cep = None, numero = None, bairro = None):
     cursor = mydb.cursor()
+
     sql = "UPDATE funcionario SET CPF = %s, nome = %s, email = %s, telefone = %s, funcao = %s WHERE id_funcionario = %s" #Comando mysql || atulizando dados
     val = (CPF,nome, email,telefone,funcao,id_funcionario)
     cursor.execute(sql, val)
