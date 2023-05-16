@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from crud_funcionario import create_funcionario, read_funcionario, update_funcionario, delete_funcionario, show_all_id_from_table, show_all_name_from_table
+from crud_funcionario import create_funcionario, read_funcionario, update_funcionario, delete_funcionario, show_all_id_from_table
 
 
 def clear_window(window):
@@ -213,23 +213,26 @@ def on_click_delete_funcionario():
             delete_funcionario(int(id_to_delete_funcionario))
 
             on_click_delete_funcionario()
- 
-            deletado_com_sucesso = tk.Label(window,text="Funcionario deletado com sucesso")
-            deletado_com_sucesso.config(relief="sunken",bg="green")
+
+            deletado_com_sucesso = tk.Label(
+                window, text="Funcionario deletado com sucesso")
+            deletado_com_sucesso.config(relief="sunken", bg="green")
             deletado_com_sucesso.pack(padx=3, side="top")
 
         except Exception as error:
             print(error)
 
             on_click_delete_funcionario()
-            deletado_com_sucesso = tk.Label(window,text="Falha ao deletar o funcionario")
-            deletado_com_sucesso.config(relief="sunken",bg="red")
+            deletado_com_sucesso = tk.Label(
+                window, text="Falha ao deletar o funcionario")
+            deletado_com_sucesso.config(relief="sunken", bg="red")
             deletado_com_sucesso.pack(padx=3, side="top")
 
     clear_window(window)
 
-    delete_funcionario_label = tk.Label(window,text="Id's from the funcionarios")
-    delete_funcionario_label.pack(side="top",pady=10)
+    delete_funcionario_label = tk.Label(
+        window, text="Id's from the funcionarios")
+    delete_funcionario_label.pack(side="top", pady=10)
 
     id_funcionario = tk.StringVar()
     id_funcionario.set(list(show_all_id_from_table("funcionario")))
@@ -249,6 +252,7 @@ def on_click_delete_funcionario():
                        command=funcionario_table)
     voltar.pack(side="bottom", pady=10)
 
+
 def on_click_update_funcionario():
     def on_click_updating_funcionario():
         try:
@@ -263,7 +267,7 @@ def on_click_update_funcionario():
             numero_casa_value = numero_casa_entry.get()
             bairro_value = bairro_entry.get()
 
-            update_funcionario(int(id_value),cpf_value, nome_value, email_value, telefone_value,
+            update_funcionario(int(id_value), cpf_value, nome_value, email_value, telefone_value,
                                logradouro_value, funcao_value, cep_value, numero_casa_value, bairro_value)
 
             on_click_update_funcionario()
@@ -283,11 +287,11 @@ def on_click_update_funcionario():
             funcionario_not_created.config(fg="red")
             funcionario_not_created.pack(side="top")
 
-
     clear_window(window)
 
-    update_funcionario_label = tk.Label(window,text="Id's from the funcionarios")
-    update_funcionario_label.pack(side="top",pady=10)
+    update_funcionario_label = tk.Label(
+        window, text="Id's from the funcionarios")
+    update_funcionario_label.pack(side="top", pady=10)
 
     id_funcionario = tk.StringVar()
     id_funcionario.set(list(show_all_id_from_table("funcionario")))
@@ -296,7 +300,7 @@ def on_click_update_funcionario():
     id_funcionario_label.config(relief="sunken")
     id_funcionario_label.pack(padx=3, side="top")
 
-#Update funcionario text boxes
+# Update funcionario text boxes
 
     funcionario_create_tittle_label = tk.Label(
         window, text="Update funcionario")
@@ -389,13 +393,14 @@ def on_click_update_funcionario():
     bairro_entry.pack(pady=10, side="top")
 
     endereco_create_tittle_label = tk.Button(
-        window, text="Update funcionario", width=25,command=on_click_updating_funcionario)
+        window, text="Update funcionario", width=25, command=on_click_updating_funcionario)
     endereco_create_tittle_label.config(justify="center")
     endereco_create_tittle_label.pack(pady=5, side="top")
 
     voltar = tk.Button(window, text="Return", width=25,
                        command=funcionario_table)
     voltar.pack(side="bottom", pady=5)
+
 
 def funcionario_table():
 
