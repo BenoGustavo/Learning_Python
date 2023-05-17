@@ -1,1 +1,1 @@
-# learning_things_or_small_projects
+# learning_things_and_small_projects
