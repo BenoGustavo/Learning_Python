@@ -16,7 +16,7 @@ mydb = mysql.connector.connect(
 # Criando hospital
 
 
-def show_all_id_from_table(table_name):
+def show_all_id_from_table_medico(table_name):
     cursor = mydb.cursor()
 
     cursor.execute(f"SELECT id_{table_name} FROM {table_name}")

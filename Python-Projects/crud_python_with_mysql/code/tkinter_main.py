@@ -1,7 +1,7 @@
 import tkinter as tk
 
 from crud_funcionario import create_funcionario, read_funcionario, update_funcionario, delete_funcionario, show_all_id_from_table
-from crud_medico import create_medicos,read_medicos,update_medicos,delete_medicos
+from crud_medico import create_medicos,read_medicos,update_medicos,delete_medicos, show_all_id_from_table_medico
 
 def clear_window(window):
     for widget in window.winfo_children():
@@ -83,8 +83,10 @@ def funcionario_id_read():
     voltar.pack(side="bottom", pady=10)
 
 def on_click_creating_funcionario():
+    
     def on_click_create_funcionario():
         try:
+
             cpf_value = cpf_entry.get()
             nome_value = nome_entry.get()
             email_value = email.get()
@@ -103,7 +105,7 @@ def on_click_creating_funcionario():
             funcionario_created = tk.Label(
                 window, text=f"Funcionario {nome_value.capitalize()} criado com sucesso")
             funcionario_created.config(fg="green")
-            funcionario_created.pack(side="top")
+            funcionario_created.pack(side="bottom")
 
         except Exception as error:
             print(error)
@@ -111,17 +113,17 @@ def on_click_creating_funcionario():
             funcionario_not_created = tk.Label(
                 window, text="Error ao criar o usuario")
             funcionario_not_created.config(fg="red")
-            funcionario_not_created.pack(side="top")
+            funcionario_not_created.pack(side="bottom")
 
     clear_window(window)
-
-    frame_right = tk.Frame(window)
-    frame_right.config(bg="lightblue",relief="sunken")
-    frame_right.pack(padx=15,pady=15,anchor='nw',side="right")
 
     frame_left = tk.Frame(window)
     frame_left.config(bg="lightblue",relief="sunken")
     frame_left.pack(padx=15,pady=15,anchor="ne",side="left")
+
+    frame_right = tk.Frame(window)
+    frame_right.config(bg="lightblue",relief="sunken")
+    frame_right.pack(padx=15,pady=15,anchor='nw',side="right")
 
     funcionario_create_tittle_label = tk.Label(
         frame_left, text="Insert the information from the new funcionario")
@@ -205,13 +207,13 @@ def on_click_creating_funcionario():
     bairro_entry = tk.Entry(frame_right, width=30)
     bairro_entry.pack(pady=10,padx=10, side="top")
 
-    endereco_create_tittle_label = tk.Button(
-        frame_right, text="Create funcionario", width=25, command=on_click_create_funcionario)
-    endereco_create_tittle_label.pack(pady=5, side="bottom",anchor='s')
-
     voltar = tk.Button(frame_right, text="Return", width=25,
                        command=funcionario_table)
     voltar.pack(side="bottom", pady=25,anchor='s')
+
+    endereco_create_tittle_label = tk.Button(
+        frame_right, text="Create funcionario", width=25, command=on_click_create_funcionario)
+    endereco_create_tittle_label.pack(pady=5, side="bottom",anchor='s')
 
 def on_click_delete_funcionario():
     def on_click_delete_funcionario_function():
@@ -298,11 +300,11 @@ def on_click_update_funcionario():
 
     frame_right = tk.Frame(window)
     frame_right.config(bg="lightblue",relief="sunken")
-    frame_right.pack(padx=15,pady=15,anchor='nw',side="right")
+    frame_right.pack(padx=15,pady=15,anchor='nw',side="left")
 
     frame_left = tk.Frame(window)
     frame_left.config(bg="lightblue",relief="sunken")
-    frame_left.pack(padx=15,pady=15,anchor="ne",side="left")
+    frame_left.pack(padx=15,pady=15,anchor="ne",side="right")
 
     frame_middle = tk.Frame(window)
     frame_middle.config(bg="lightblue",relief="sunken")
@@ -521,7 +523,7 @@ def on_click_delete_medicos():
     delete_medicos_label.pack(side="top", pady=10)
 
     id_medicos = tk.StringVar()
-    id_medicos.set(list(show_all_id_from_table("medicos")))
+    id_medicos.set(list(show_all_id_from_table_medico("medicos")))
 
     id_medicos_label = tk.Label(window, textvariable=id_medicos,)
     id_medicos_label.config(relief="sunken")
@@ -573,96 +575,103 @@ def creating_medico():
 
     clear_window(window)
 
+    frame_left = tk.Frame(window)
+    frame_left.config(bg="lightblue",relief="sunken")
+    frame_left.pack(padx=15,pady=15,anchor="ne",side="left")
+
+    frame_right = tk.Frame(window)
+    frame_right.config(bg="lightblue",relief="sunken")
+    frame_right.pack(padx=15,pady=15,anchor='nw',side="right")
+
     medico_create_tittle_label = tk.Label(
-        window, text="Insert the information from the new medico")
+        frame_right, text="Personal info medico")
     medico_create_tittle_label.config(relief="sunken", justify="center")
     medico_create_tittle_label.pack(pady=20, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your CPF", width=25)
+        frame_right, text="Insert your CPF", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    cpf_entry = tk.Entry(window, width=30)
+    cpf_entry = tk.Entry(frame_right, width=30)
     cpf_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your name", width=25)
+        frame_right, text="Insert your name", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    nome_entry = tk.Entry(window, width=30)
+    nome_entry = tk.Entry(frame_right, width=30)
     nome_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your email", width=25)
+        frame_right, text="Insert your email", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    email = tk.Entry(window, width=30)
+    email = tk.Entry(frame_right, width=30)
     email.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your telefone number", width=25)
+        frame_right, text="Insert your telefone number", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    telefone = tk.Entry(window, width=30)
+    telefone = tk.Entry(frame_right, width=30)
     telefone.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your especialidade", width=25)
+        frame_right, text="Insert your especialidade", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    especialidade = tk.Entry(window, width=30)
+    especialidade = tk.Entry(frame_right, width=30)
     especialidade.pack(pady=10, side="top")
 
     medico_create_tittle_label = tk.Label(
-        window, text="Insert the endereco from the new medico")
+        frame_left, text="Endereco info medico")
     medico_create_tittle_label.config(relief="sunken", justify="center")
     medico_create_tittle_label.pack(pady=20, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your logradouro", width=25)
+        frame_left, text="Insert your logradouro", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    logradouro_entry = tk.Entry(window, width=30)
+    logradouro_entry = tk.Entry(frame_left, width=30)
     logradouro_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your cep", width=25)
+        frame_left, text="Insert your cep", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    cep_entry = tk.Entry(window, width=30)
+    cep_entry = tk.Entry(frame_left, width=30)
     cep_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert the number of ur house", width=25)
+        frame_left, text="Insert the number of ur house", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    numero_casa_entry = tk.Entry(window, width=30)
+    numero_casa_entry = tk.Entry(frame_left, width=30)
     numero_casa_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your bairro", width=25)
+        frame_left, text="Insert your bairro", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    bairro_entry = tk.Entry(window, width=30)
+    bairro_entry = tk.Entry(frame_left, width=30)
     bairro_entry.pack(pady=10, side="top")
 
-    endereco_create_tittle_label = tk.Button(
-        window, text="Create medico", width=25, command=on_click_create_medico)
-    endereco_create_tittle_label.config(justify="center")
-    endereco_create_tittle_label.pack(pady=30, side="top")
-
-    voltar = tk.Button(window, text="Return", width=25,
+    voltar = tk.Button(frame_left, text="Return", width=25,
                        command=medico_table)
     voltar.pack(side="bottom", pady=10)
+
+    endereco_create_tittle_label = tk.Button(
+        frame_left, text="Create medico", width=25, command=on_click_create_medico)
+    endereco_create_tittle_label.pack(pady=30, side="bottom")
 
 def updating_medico():
     def on_click_updating_medico():
@@ -700,115 +709,127 @@ def updating_medico():
 
     clear_window(window)
 
+    frame_right = tk.Frame(window)
+    frame_right.config(bg="lightblue",relief="sunken")
+    frame_right.pack(padx=15,pady=15,anchor='nw',side="right")
+
+    frame_left = tk.Frame(window)
+    frame_left.config(bg="lightblue",relief="sunken")
+    frame_left.pack(padx=15,pady=15,anchor="ne",side="left")
+
+    frame_middle = tk.Frame(window)
+    frame_middle.config(bg="lightblue",relief="sunken")
+    frame_middle.pack(padx=15,pady=15,anchor="n",side="top")
+
     update_medico_label = tk.Label(
-        window, text="Id's from the medicos")
+        frame_middle, text="Id's from the medicos")
     update_medico_label.pack(side="top", pady=5)
     
     id_medico = tk.StringVar()
     id_medico.set(list(show_all_id_from_table("medicos")))
 
-    id_medico_label = tk.Label(window, textvariable=id_medico,)
+    id_medico_label = tk.Label(frame_middle, textvariable=id_medico,)
     id_medico_label.config(relief="sunken")
     id_medico_label.pack(padx=3, side="top")
 
 # Update medico text boxes
 
     medico_create_tittle_label = tk.Label(
-        window, text="Update medico")
+        frame_left, text="Update medico")
     medico_create_tittle_label.config(relief="sunken", justify="center")
     medico_create_tittle_label.pack(pady=5, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your ID", width=25)
+        frame_left, text="Insert your ID", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    id_entry = tk.Entry(window, width=30)
+    id_entry = tk.Entry(frame_left, width=30)
     id_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your CPF", width=25)
+        frame_left, text="Insert your CPF", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    cpf_entry = tk.Entry(window, width=30)
+    cpf_entry = tk.Entry(frame_left, width=30)
     cpf_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your name", width=25)
+        frame_left, text="Insert your name", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    nome_entry = tk.Entry(window, width=30)
+    nome_entry = tk.Entry(frame_left, width=30)
     nome_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your email", width=25)
+        frame_left, text="Insert your email", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    email = tk.Entry(window, width=30)
+    email = tk.Entry(frame_left, width=30)
     email.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your telefone number", width=25)
+        frame_left, text="Insert your telefone number", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    telefone = tk.Entry(window, width=30)
+    telefone = tk.Entry(frame_left, width=30)
     telefone.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your role", width=25)
+        frame_left, text="Insert your role", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    especialidade = tk.Entry(window, width=30)
+    especialidade = tk.Entry(frame_left, width=30)
     especialidade.pack(pady=10, side="top")
 
     medico_create_tittle_label = tk.Label(
-        window, text="Insert the endereco from the new medico")
+        frame_right, text="Endereco Medico")
     medico_create_tittle_label.config(relief="sunken", justify="center")
     medico_create_tittle_label.pack(pady=20, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your logradouro", width=25)
+        frame_right, text="Insert your logradouro", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    logradouro_entry = tk.Entry(window, width=30)
+    logradouro_entry = tk.Entry(frame_right, width=30)
     logradouro_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your cep", width=25)
+        frame_right, text="Insert your cep", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    cep_entry = tk.Entry(window, width=30)
+    cep_entry = tk.Entry(frame_right, width=30)
     cep_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert the number of ur house", width=25)
+        frame_right, text="Insert the number of ur house", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    numero_casa_entry = tk.Entry(window, width=30)
+    numero_casa_entry = tk.Entry(frame_right, width=30)
     numero_casa_entry.pack(pady=10, side="top")
 
     create_medico_tittle = tk.Label(
-        window, text="Insert your bairro", width=25)
+        frame_right, text="Insert your bairro", width=25)
     create_medico_tittle.config(relief="ridge")
     create_medico_tittle.pack(pady=1, side="top")
 
-    bairro_entry = tk.Entry(window, width=30)
+    bairro_entry = tk.Entry(frame_right, width=30)
     bairro_entry.pack(pady=10, side="top")
 
     endereco_create_tittle_label = tk.Button(
-        window, text="Update medico", width=25, command=on_click_updating_medico)
+        frame_right, text="Update medico", width=25, command=on_click_updating_medico)
     endereco_create_tittle_label.config(justify="center")
-    endereco_create_tittle_label.pack(pady=5, side="top")
+    endereco_create_tittle_label.pack(pady=15, side="top")
 
-    voltar = tk.Button(window, text="Return", width=25,
+    voltar = tk.Button(frame_right, text="Return", width=25,
                        command=medico_table)
     voltar.pack(side="bottom", pady=5)
 
