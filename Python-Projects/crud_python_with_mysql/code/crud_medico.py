@@ -1,3 +1,5 @@
+# Endereco sendo criado duplicado
+
 import mysql.connector
 
 # Conectando ao schema
@@ -14,7 +16,23 @@ mydb = mysql.connector.connect(
 # Criando hospital
 
 
-def create_hospital(nome, email, telefone, logradouro, cep, numero, bairro):
+def show_all_id_from_table(table_name):
+    cursor = mydb.cursor()
+
+    cursor.execute(f"SELECT id_{table_name} FROM {table_name}")
+    result = cursor.fetchall()
+    return result
+
+
+def show_all_name_from_table(table_name):
+    cursor = mydb.cursor()
+
+    cursor.execute(f"SELECT nome FROM {table_name}")
+    result = cursor.fetchall()
+    return result
+
+
+def create_medicos(CPF, nome, email, telefone, logradouro, especialidade, cep, numero, bairro):
 
     # Criando endereco para o hospital
     def create_endereco(logradouro, cep, numero, bairro):
@@ -37,16 +55,17 @@ def create_hospital(nome, email, telefone, logradouro, cep, numero, bairro):
     cursor.execute(sql)
     id_endereco = cursor.fetchone()
 
-    # Tenta criar o hospital, caso não consiga deleta o endereco criado para ele e então finaliza a funcao
+    # Caso não consiga criar medicos, o endereco criado anteriormente é deletado e então finalizado a funcao
 
     try:
         # Criando o hospital, junto com o ID do respectivo endereco
-        sql = "INSERT INTO hospital (nome, email, telefone, id_endereco) VALUES (%s, %s, %s,%s)"
-        val = (nome, email, telefone, id_endereco[0],)
+        sql = "INSERT INTO medicos (CPF, nome, email, telefone ,especialidade, id_endereco) VALUES (%s, %s, %s,%s,%s,%s)"
+        val = (CPF, nome, email, telefone, especialidade, id_endereco[0],)
         cursor.execute(sql, val)
         mydb.commit()
 
-    except:
+    except Exception as error:
+
         # Selecionando informaçoes
         sql = "SELECT * FROM endereco ORDER BY id_endereco DESC LIMIT 1"
         cursor.execute(sql)
@@ -58,43 +77,47 @@ def create_hospital(nome, email, telefone, logradouro, cep, numero, bairro):
         cursor.execute(sql, val)
         mydb.commit()
 
+        print("Ocorreu um erro:", error)
+        input("\n...")
+
     finally:
         return cursor.lastrowid
 
 
-# Lendo informacoes da tabela hospital
-def read_hospital(id_hospital):
+# Lendo informacoes da tabela medicos
+def read_medicos(id_medicos):
     cursor = mydb.cursor()
     # Comando mysql || pegando informacoes do hospital com ID
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s"
-    val = (id_hospital,)
+    sql = "SELECT * FROM medicos WHERE id_medicos = %s"
+    val = (id_medicos,)
     cursor.execute(sql, val)
     result = cursor.fetchone()
 
     # Comando mysql || pegando informacoes do endereco hospital
     sql = "SELECT * FROM endereco WHERE id_endereco = %s"
-    val = (result[4],)
+    val = (result[6],)
     cursor.execute(sql, val)
     endereco = cursor.fetchone()
 
     # Retornando informacoes
     if result is None or endereco is None:
         return None
-    return {'id': result[0], 'name': result[1], 'telefone': result[2], 'email': result[3], 'logradouro': endereco[1], 'cep': endereco[2], 'numero': endereco[3], 'bairro': endereco[4]}
+    return {'id': result[0], 'CPF': result[1], 'nome': result[2], 'email': result[3], "telefone": result[4], "especialidade": result[5], 'logradouro': endereco[1], 'cep': endereco[2], 'numero': endereco[3], 'bairro': endereco[4]}
 
-# Atuailizando informacoes hospital
+# Atuailizando informacoes medicos
 
 
-def update_hospital(id_hospital, nome, email, telefone, logradouro, cep, numero, bairro):
+def update_medicos(id_medicos, CPF=None, nome=None, email=None, telefone=None, logradouro=None, especialidade=None, cep=None, numero=None, bairro=None):
     cursor = mydb.cursor()
+
     # Comando mysql || atulizando dados
-    sql = "UPDATE hospital SET nome = %s, email = %s, telefone = %s WHERE id_hospital = %s"
-    val = (nome, email, telefone, id_hospital)
+    sql = "UPDATE medicos SET CPF = %s, nome = %s, email = %s, telefone = %s, especialidade = %s WHERE id_medicos = %s"
+    val = (CPF, nome, email, telefone, especialidade, id_medicos)
     cursor.execute(sql, val)
     mydb.commit()
 
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s"  # Selecionando ID endereco
-    id = (id_hospital,)
+    sql = "SELECT * FROM medicos WHERE id_medicos = %s"  # Selecionando ID endereco
+    id = (id_medicos,)
     cursor.execute(sql, id)
     endereco = cursor.fetchone()  # Armazenando ID endereco
 
@@ -109,37 +132,37 @@ def update_hospital(id_hospital, nome, email, telefone, logradouro, cep, numero,
         return cursor.rowcount
 
     # Funcao que atualiza o endereco
-    update_endereco(logradouro, cep, numero, bairro, endereco[4])
+    update_endereco(logradouro, cep, numero, bairro, endereco[6])
 
     return cursor.rowcount
 
 # Deletando dados hospital
 
 
-def delete_hospital(id_hospital):
+def delete_medicos(id_medicos):
 
     cursor = mydb.cursor()
-    sql = "SELECT * FROM hospital WHERE id_hospital = %s"  # Selecionando ID endereco
-    id = (id_hospital,)
+    sql = "SELECT * FROM medicos WHERE id_medicos = %s"  # Selecionando ID endereco
+    id = (id_medicos,)
     cursor.execute(sql, id)
     id_endereco = cursor.fetchone()  # Armazenando ID endereco
 
-    # Deletando endereco || RECEBENDO ERRO POIS N POSSO DELETAR CHAVE ESTRANGEIRA
-    sql = "DELETE FROM endereco WHERE id_endereco = %s"
-    val = (id_endereco[4],)
+    # Deletando informacoes do medicos
+    sql = "DELETE FROM medicos WHERE id_medicos = %s"
+    val = (id_medicos,)
     cursor.execute(sql, val)
+    mydb.commit()
 
-    cursor = mydb.cursor()
-    # Deletando informacoes do hospital
-    sql = "DELETE FROM hospital WHERE id_hospital = %s"
-    val = (id_hospital,)
+    sql = "DELETE FROM endereco WHERE id_endereco = %s"  # Deletando endereco
+    val = (id_endereco[6],)
     cursor.execute(sql, val)
     mydb.commit()
 
     return cursor.rowcount
 
 
-# Utilizando
-
-# create_hospital("TESTE2","TESTE2@GMAIL.COM","321","LOGRADOURO2","768","876789","BAIRRO2")
-# update_hospital("5","nome","string","123","string","123","123","string")
+#Funcionando e testado
+#create_medicos("546546546","afdasfdadas","fniwnguwn","564654645465","sjgfhdjghsfdjgh","sfjhosjhkdffjkh","132132-56","46556","asdhkabhds")
+#print(read_medicos("1"))
+#update_medicos("1","7463276","atualizando o medico","att","234432","sfdgfgdsfgds","att","13132213","432567","asdasdasd")
+#delete_medicos("1")
