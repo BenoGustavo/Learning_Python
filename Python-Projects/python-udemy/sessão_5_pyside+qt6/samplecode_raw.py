@@ -18,6 +18,7 @@
 
 import sys
 
+from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QApplication, QPushButton, QWidget,QVBoxLayout,QHBoxLayout,QGridLayout,QMainWindow
 
 app = QApplication(sys.argv) #Set the app instance
@@ -53,21 +54,34 @@ layout.addWidget(botao,1,1,1,1) #Adding the button to the layout with the positi
 layout.addWidget(botao1,1,2,1,1)
 layout.addWidget(botao2,3,1,1,2) #ROW,COLUMN,ROWSPAN AND COLUMNSPAN
 
+@Slot()
 def print_123():
     print("123")
 
+@Slot()
 def changing_the_status_bar(status_bar):
-    status_bar.showMessage('O meu slot foi executado')
+    def inner():
+        status_bar.showMessage('O meu slot foi executado')
+    return inner
 
+@Slot()
 def hello_world():
     print("Hello World")
+
+@Slot()
+def estou_marcado(checked:bool):
+    print(f"Estou marcado? {checked}")
+
+#Using the main window we can add a StatusBar
+status_bar = window.statusBar()
+status_bar.showMessage("Sou uma barra de status =)")
 
 #Using the main window we can add a menu
 menu = window.menuBar()
 menu_one = menu.addMenu("Sou um menu e sou clicavel")
 
 funcao_menu = menu_one.addAction("Funcao do menu") #Create a function in the menu
-funcao_menu.triggered.connect(lambda: changing_the_status_bar(status_bar)) #Create the function
+funcao_menu.triggered.connect(changing_the_status_bar(status_bar)) #Create the function
 
 funcao_menu = menu_one.addAction("Mais uma funcao para o menu")
 funcao_menu.triggered.connect(hello_world)
@@ -75,9 +89,10 @@ funcao_menu.triggered.connect(hello_world)
 funcao_menu = menu_one.addAction("Onde pode dois pode tres")
 funcao_menu.triggered.connect(print_123)
 
-#Using the main window we can add a StatusBar
-status_bar = window.statusBar()
-status_bar.showMessage("Sou uma barra de status =)")
+menu_t_f = menu.addMenu("Sou um menu que emite true or false") #Adding a new menu
+funcao_menu_t_f = menu_t_f.addAction("Clique aqui") #Create a function in the menu
+funcao_menu_t_f.setCheckable(True) #Put the menu in true or false mode
+funcao_menu_t_f.toggled.connect(estou_marcado) #Create the function
 
 window.show() #Showing the window
 
