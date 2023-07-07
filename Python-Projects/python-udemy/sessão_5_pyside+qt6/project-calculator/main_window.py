@@ -11,11 +11,14 @@ class MainWindow(QMainWindow):
 
         #Basic Layout
         self.central_widget = QWidget()
-        self.Vlayout = QVBoxLayout()
-        self.central_widget.setLayout(self.Vlayout)
+        self.vLayout = QVBoxLayout()
+        self.central_widget.setLayout(self.vLayout)
         self.setCentralWidget(self.central_widget)
 
     def AdjustFixedSize(self):
         #NEEDS TO BE THE LAST THING SETTED 
         self.adjustSize()
         self.setFixedSize(self.width(), self.height())
+
+    def addToVLayout(self,widget: QWidget):
+        self.vLayout.addWidget(widget)
