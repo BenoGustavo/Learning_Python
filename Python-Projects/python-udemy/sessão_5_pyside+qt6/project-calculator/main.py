@@ -30,7 +30,7 @@ if __name__ == "__main__":
     app.setWindowIcon(icon)
 
     #last calculus
-    infowedget = info('PLACE HOLDER TEXT FOR NOW')
+    infowedget = info('...')
     window.addWidgetToVLayout(infowedget)
 
     #Setting up the display
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     window.addWidgetToVLayout(display) #Adding the text box to the layout
 
     #grid
-    buttonsGrid = ButtonGrid(display)
+    buttonsGrid = ButtonGrid(display,infowedget)
     window.vLayout.addLayout(buttonsGrid)
 
     #Setting up the buttons
