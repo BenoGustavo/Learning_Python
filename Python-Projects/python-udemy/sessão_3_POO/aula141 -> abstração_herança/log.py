@@ -3,7 +3,7 @@ from pathlib import Path
 LOG_FILE = Path(__file__).parent / 'log.txt'
 
 #Abstração
-class log:
+class Log:
     def log(self,msg):
         raise NotImplementedError('Create the log method yourself')
     
@@ -13,14 +13,14 @@ class log:
     def log_success(self,msg):
         return self.log(f'Success:{msg}') #Quando utilizado self. dentro de uma classe que ira sofrer herança a classe que herda deve ser a chamada
     
-class LogFileMixin(log):
+class LogFileMixin(Log):
     def log(self,msg):
         with open(LOG_FILE,'a') as arquivo:
             arquivo.write(msg)
             arquivo.write('\n')
         
     
-class LogPrintMixin(log):
+class LogPrintMixin(Log):
     def log(self,msg):
         print(msg)
 
