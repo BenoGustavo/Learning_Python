@@ -50,7 +50,7 @@ mais facil upar em repositorios sem carregar muitas coisas
 
 requiremente.txt é tudo que é necessario para carregar o arquivo
 
-pip freeze > requiremente.txt
+pip freeze > requirementes.txt
 
 Instala tudo que existe dentro de requirementes.txt
 
