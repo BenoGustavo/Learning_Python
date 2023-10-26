@@ -1,6 +1,6 @@
 import json
 
-with open('arquivos_em_json.json', 'r', encoding='utf8') as archivejson: 
+with open('arquivos_em_json.json', 'w+', encoding='utf8') as archivejson: 
     to_do = json.load(archivejson)
     print(to_do)
 
