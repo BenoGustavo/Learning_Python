@@ -26,6 +26,14 @@
 
 2. Corpo da mensagem -> Retorno da requisição seja um HTML,JSON ou até mesmo vazio em alguns casos
 
+## PORTAS PADRÕES
+
+    Se nenhuma porta for informada essas são as portas padrão utilizadas.
+
+1. http:// -> (Ele vai utilizar 80 por padrão)
+
+2. https:// -> (Ele vai utilizar 443 por padrão)
+
 ## AUTOR
 
     Gustavo Leandro Gorges
