@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo para enviar no e-mail</title>
+</head>
+    <body>
+        <h1>Olá, {{ $name }}</h1>
+        <p>Seja bem-vindo(a) ao nosso site!</p>
+        <p>Segundo nossa base de dados você tem {{ $idade }}</p>
+        <p>Seu e-mail foi cadastrado com sucesso!</p>
+        <p>Para confirmar seu e-mail, clique no link abaixo:</p>
+        <a href="{{ $link }}">Confirmar e-mail</a>
+    </body>
+</html>
