@@ -1,0 +1,18 @@
+{% extends "global/base.html" %}
+
+{% block blog_posts %}
+<div class="content">
+    <article class="post single__post">
+        <header>
+            <h1 class="post__tittle">
+                <a href="{% url 'blog:post' post.id %}">
+                {{ post.title }}
+                </a>
+            </h1>
+        </header>
+        <div class="post__body">
+            {{ post.body }}
+        </div>
+    </article>
+</div>
+{% endblock blog_posts %}

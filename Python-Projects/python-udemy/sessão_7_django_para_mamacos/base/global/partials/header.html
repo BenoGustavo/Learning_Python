@@ -1,0 +1,7 @@
+<nav class="menu">
+    <ul class="menu__links">
+        <li><a href={% url "home" %}>{{ first_item_nav }}</a></li>
+        <li><a href={% url "blog:blog" %}>{{ second_item_nav }}</a></li>
+        <li><a href={% url "blog:blog_authors" %}>{{ third_item_nav }}</a></li>
+    </ul>
+</nav>

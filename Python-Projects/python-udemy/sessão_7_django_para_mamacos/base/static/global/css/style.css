@@ -1,0 +1,127 @@
+/* Reset */
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #f1f1f1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page__tittle {
+    margin: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu {
+    background: black;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.menu__links {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    list-style: none;
+}
+
+.menu__links a,
+.menu__links a:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu__links a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu__links a:hover::after,
+.menu__links a:focus::after {
+    transform: scaleX(1);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(33, 33, 33);
+}
+
+.content {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.home__content {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    background: #adadad;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 2%;
+}
+
+.home__subtittle {
+    text-align: center;
+    margin: 2rem;
+    text-wrap: nowrap;
+}
+
+.home__subtittle h1 {
+    text-transform: uppercase;
+}
+
+.home__subtittle h2 {
+    font-weight: 100;
+}
+
+.home__subtittle p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.home__subtittle ul {
+    margin-top: 2rem;
+    gap: 2rem;
+    list-style: none;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .content:not(:has(.single__post)) {
+        grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    }
+}

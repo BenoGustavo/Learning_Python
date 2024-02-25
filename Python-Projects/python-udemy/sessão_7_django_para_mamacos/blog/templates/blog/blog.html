@@ -1,0 +1,9 @@
+{% extends "global/base.html" %}
+
+{% block blog_posts %}
+    <div class="content">
+        {% for post in posts %}
+            {% include "global/partials/postblock.html" %}
+        {% endfor %}
+    </div>
+{% endblock blog_posts %}

@@ -1,0 +1,19 @@
+{% include "global/partials/head.html" %}
+{% include "global/partials/header.html" %}
+
+{% if  page_tittle_h1 %}
+<div class="page__tittle">
+    <h1>{{ page_tittle_h1 }}</h1>
+    
+    {% if page__description %}
+    <p>{{ page__description }}</p>
+    {% endif %}
+</div>
+{% endif %}
+
+<main>
+    {% block blog_posts %}{% endblock blog_posts %}
+    {% block home %}{% endblock home %}
+</main>
+
+
