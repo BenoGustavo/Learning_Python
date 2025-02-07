@@ -1,15 +1,26 @@
-def FirstFactorial(num):
+a = {
+    "a": 1,
+    "b":2
+}
 
-    fat = int(num)
+print(*a)
 
-    while True:
-        fat -= 1
+a, b = a.values()
+
+print(a,b)
+
+# def FirstFactorial(num):
+
+#     fat = int(num)
+
+#     while True:
+#         fat -= 1
         
-        if fat == 0:
-            break
-        num = int(num)*int(fat)
+#         if fat == 0:
+#             break
+#         num = int(num)*int(fat)
   
-    return num
+#     return num
 
-# keep this function call here 
-print(FirstFactorial(input()))
+# # keep this function call here 
+# print(FirstFactorial(input()))
